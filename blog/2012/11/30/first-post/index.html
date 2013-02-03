@@ -5,12 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Akt One.</title>
+  <title>Octopressを使ってみる - Akt One.</title>
   <meta name="author" content="Aki.">
 
   
-  <meta name="description" content="英語の勉強にもなると思い TEDの字幕(subtitle)を取得するスクリプトを書いてみました。
-json形式で取得できるのですごく楽。Array zipもべんり。 取得結果は私が大好きな『Marco Tempest: A magical tale (with augmented reality &hellip;">
+  <meta name="description" content="Octopress を使ってBlogを書いてみる。 &#8220;Create a new Github repository and name the repository with your user name or organization name username.github.com &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +18,7 @@ json形式で取得できるのですごく楽。Array zipもべんり。 取得
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://springaki.github.com/">
+  <link rel="canonical" href="http://springaki.github.com/blog/2012/11/30/first-post/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -75,117 +74,12 @@ json形式で取得できるのですごく楽。Array zipもべんり。 取得
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2013/02/03/tedfalsezi-mu-woqu-de-suru/">TEDの字幕を取得する</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-02-03T15:14:00+09:00" pubdate data-updated="true">Feb 3<span>rd</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>英語の勉強にもなると思い TEDの字幕(subtitle)を取得するスクリプトを書いてみました。
-json形式で取得できるのですごく楽。Array zipもべんり。</p>
-
-<p>取得結果は私が大好きな『Marco Tempest: A magical tale (with augmented reality)』(マルコ・テンペスト 「拡張現実がつくり出す魔法」)で出してみました。ぜひ動画もご覧ください。</p>
-
-<p>31言語の翻訳が用意されているので 他言語の習得にも良いかもしれませんね !</p>
-
-<div><script src='https://gist.github.com/4701522.js'></script>
-<noscript><pre><code># -*- encoding: utf-8 -*-
-# TED Subtitles sample
-
-require 'json'
-require 'open-uri'
- 
-base_url = 'http://www.ted.com/talks/subtitles'
-id = 1405
-
-url_en = &quot;#{base_url}/id/#{id.to_s}/lang&quot;
-url_ja = &quot;#{base_url}/id/#{id.to_s}/lang/ja&quot;
- 
-data_en = JSON.parse(open(url_en).read)
-data_ja = JSON.parse(open(url_ja).read)
-if data_en &amp;&amp; data_en.key?('captions')
-  captions_en = data_en['captions']
-    captions_ja = data_ja['captions']
-    
-    captions_en.zip(captions_ja){ |en, ja|
-        puts en['content']
-        puts ja['content']
-        puts 
-    }
-end 
-</code></pre></noscript></div>
-
-
-<p>出力結果を一部抜粋</p>
-
-<div><script src='https://gist.github.com/4701526.js'></script>
-<noscript><pre><code>Marco Tempest: What I'd like to show you today
-今日お見せするのは
-
-is something in the way of an experiment.
-まだ実験中のものです
-
-Today's its debut.
-今日が初披露になります
-
-It's a demonstration of augmented reality.
-拡張現実の実演です
-
-And the visuals you're about to see are not prerecorded.
-ご覧になる映像は録画されたものではありません
-
-They are live
-ライブで 私の動作に
-
-and reacting to me in real time.
-リアルタイムで反応しています
-
-I like to think of it as a kind of technological magic.
-いわばテクノロジーによるマジックです
-</code></pre></noscript></div>
-
-
-<p>下記コンテンツを参考にさせていただきました。ありがとうございます。</p>
-
-<p><a href="http://orihubon.com/blog/2012/04/09/fetch-subtitle-for-talks-in-ted/">http://orihubon.com/blog/2012/04/09/fetch-subtitle-for-talks-in-ted/</a></p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/11/30/first-post/">Octopressを使ってみる</a></h1>
+      <h1 class="entry-title">Octopressを使ってみる</h1>
     
     
       <p class="meta">
@@ -208,7 +102,7 @@ I like to think of it as a kind of technological magic.
   </header>
 
 
-  <div class="entry-content"><p><a href="http://octopress.org/">Octopress</a> を使ってBlogを書いてみる。</p>
+<div class="entry-content"><p><a href="http://octopress.org/">Octopress</a> を使ってBlogを書いてみる。</p>
 
 <blockquote><p>&#8220;Create a new Github repository and name the repository with your user name or organization name username.github.com or organization.github.com.&#8221;</p></blockquote>
 
@@ -228,18 +122,55 @@ I like to think of it as a kind of technological magic.
 rake deploy
 </code></pre>
 </div>
+
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Aki.</span></span>
+
+      
+
+
+
+
+
+
+
+
   
 
 
-    </article>
+<time datetime="2012-11-30T18:29:00+09:00" pubdate data-updated="true">Nov 30<span>th</span>, 2012</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
   
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://springaki.github.com/blog/2012/11/30/first-post/" data-via="spring_aki" data-counturl="http://springaki.github.com/blog/2012/11/30/first-post/" >Tweet</a>
+  
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
 </div>
+
+    
+    <p class="meta">
+      
+      
+        <a class="basic-alignment right" href="/blog/2013/02/03/tedfalsezi-mu-woqu-de-suru/" title="Next Post: TEDの字幕を取得する">TEDの字幕を取得する &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
 <aside class="sidebar">
   
     <section>
@@ -261,7 +192,7 @@ rake deploy
 <section>
   <h1>Latest Tweets</h1>
   <ul id="tweets">
-    <li class="loading">Status updating&#8230;</li>
+    <li class="loading">Status updating...</li>
   </ul>
   <script type="text/javascript">
     $.domReady(function(){
@@ -280,6 +211,7 @@ rake deploy
 
   
 </aside>
+
 
     </div>
   </div>
