@@ -4,7 +4,7 @@
   <title><![CDATA[Akt One.]]></title>
   <link href="http://springaki.github.com/atom.xml" rel="self"/>
   <link href="http://springaki.github.com/"/>
-  <updated>2013-02-05T14:35:53+09:00</updated>
+  <updated>2013-02-05T16:16:31+09:00</updated>
   <id>http://springaki.github.com/</id>
   <author>
     <name><![CDATA[Aki.]]></name>
@@ -12,6 +12,63 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Amazon plugin を追加する]]></title>
+    <link href="http://springaki.github.com/blog/2013/02/05/add-amazon-plugin-for-octopress/"/>
+    <updated>2013-02-05T15:24:00+09:00</updated>
+    <id>http://springaki.github.com/blog/2013/02/05/add-amazon-plugin-for-octopress</id>
+    <content type="html"><![CDATA[<p>gem install</p>
+
+<pre><code>$ gem install ruby-aaws
+</code></pre>
+
+<figure class='code'><figcaption><span>Gemfile add ruby-aaws - Gemfile </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>gem 'ruby-aaws'</span></code></pre></td></tr></table></div></figure>
+
+
+<p>octopress の pluginディレクトリに以下のソースを入れる</p>
+
+<p><a href="https://github.com/jamuraa/base0.net/blob/master/_plugins/amazon_liquid_tags.rb">Mr. Janssen’s plugin from Github.</a></p>
+
+<pre><code>$ curl https://raw.github.com/jamuraa/base0.net/master/_plugins/amazon_liquid_tags.rb &gt; plugins/amazon_liquid_tags.rb
+</code></pre>
+
+<p>Homeディレクトリに設定ファイルを追加</p>
+
+<figure class='code'><figcaption><span>setting config - ~/.amazonrc </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>key_id = 'YOUR-ACCESS-KEY-GOES-HERE'
+</span><span class='line'>secret_key_id = 'YOUR-SECRET-KEY-GOES-HERE'
+</span><span class='line'>associate = 'aktone-22'   # アソシエイトID
+</span><span class='line'>cache = false
+</span><span class='line'>locale = 'jp'
+</span><span class='line'>encoding = 'UTF-8'</span></code></pre></td></tr></table></div></figure>
+
+
+<p>使い方</p>
+
+<div><script src='https://gist.github.com/4712786.js'></script>
+<noscript><pre><code>{{ &quot;4048687158&quot; | amazon_medium_image }}
+{{ &quot;4798122971&quot; | amazon_medium_image }}
+</code></pre></noscript></div>
+
+
+<p>こんなふうに表示される</p>
+
+<p><a href="http://www.amazon.co.jp/メタプログラミングRuby-Paolo-Perrotta/dp/4048687158?SubscriptionId=AKIAJ75ORPYTR4OFTVFQ&tag=aktone-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4048687158"><img src="http://ecx.images-amazon.com/images/I/51TODrMIEnL._SL160_.jpg" /></a>
+<a href="http://www.amazon.co.jp/ビジネスモデル・ジェネレーション-ビジネスモデル設計書-アレックス・オスターワルダー/dp/4798122971?SubscriptionId=AKIAJ75ORPYTR4OFTVFQ&tag=aktone-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4798122971"><img src="http://ecx.images-amazon.com/images/I/51Y3to-8q0L._SL160_.jpg" /></a></p>
+
+<p>参照
+<a href="http://zanshin.net/2011/08/24/amazon-plugin-for-octopress/">http://zanshin.net/2011/08/24/amazon-plugin-for-octopress/</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[TEDの字幕を取得する]]></title>
