@@ -4,7 +4,7 @@
   <title><![CDATA[Akt One.]]></title>
   <link href="http://springaki.github.com/atom.xml" rel="self"/>
   <link href="http://springaki.github.com/"/>
-  <updated>2013-03-28T01:04:52+09:00</updated>
+  <updated>2013-04-19T00:09:59+09:00</updated>
   <id>http://springaki.github.com/</id>
   <author>
     <name><![CDATA[Aki.]]></name>
@@ -12,6 +12,174 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Rspec &amp; Spork &amp; Guard でテスト環境を快適にする。]]></title>
+    <link href="http://springaki.github.com/blog/2013/04/14/rspec-and-spork-and-guard/"/>
+    <updated>2013-04-14T14:47:00+09:00</updated>
+    <id>http://springaki.github.com/blog/2013/04/14/rspec-and-spork-and-guard</id>
+    <content type="html"><![CDATA[<p>Rspec環境を充実させるメモ
+わりと今さらな内容ですが、何回も人に説明しているし、何回か同じところで躓いたりしているので備忘的に自分メモ。</p>
+
+<ul>
+<li>Rspec: テスト環境本体</li>
+<li>Spork: 起動を早くする仕組み(常時サーバを立ちあげておく)</li>
+<li>Guard: ファイルの変更を監視してファイルが変更されたら随時テストを実行する)</li>
+</ul>
+
+
+<hr />
+
+<h3>Rspecを使えるようにする。</h3>
+
+<h5>ディレクトリ作って、bundle initする。</h5>
+
+<pre><code>$ mkdir rspec_env_spike
+$ cd  rspec_env_spike
+$ bundle init
+</code></pre>
+
+<h5>Gemfile (あとでrailswizardでセットアップするので必要最低限だけ)</h5>
+
+<pre><code>source 'https://rubygems.org'
+
+gem 'rails', '3.2.13'
+</code></pre>
+
+<h5>bundlerで railsだけ入れておく。(以降、bundle execするのを忘れないように)</h5>
+
+<pre><code>$ bundle install --path vendor/bundle
+</code></pre>
+
+<h5>railswizard 使って rails newする。pow と rspecだけ入ってる状態。</h5>
+
+<pre><code>$ bundle exec rails new . -m http://railswizard.org/cfeea747d830f4f73699.rb -T
+</code></pre>
+
+<h5>rspec install</h5>
+
+<pre><code>$ bundle exec rails g rspec:install
+</code></pre>
+
+<h5>spikeなので適当にscaffoldして、db migrateする</h5>
+
+<pre><code>$ bundle exec rails g scaffold book isbn title publish:date
+$ rake db:migrate
+</code></pre>
+
+<h5>テスト実行</h5>
+
+<pre><code>$ bundle exec rspec
+=&gt; ..*..........................*
+
+=&gt; Finished in 1.19 seconds
+=&gt; 30 examples, 0 failures, 2 pending
+</code></pre>
+
+<hr />
+
+<h3>Sporkを使えるようにする</h3>
+
+<h5>テストの起動が遅いので sporkを入れる。</h5>
+
+<pre><code>$ time bundle exec rspec
+
+real    0m8.673s
+user    0m7.782s
+sys     0m0.742s
+</code></pre>
+
+<h5>Gemfileに追加して bundle update</h5>
+
+<pre><code># Gemfile
+group :development, :test do
+    ...
+gem 'spork'
+end
+
+$ bundle update
+</code></pre>
+
+<h5>sporkのセットアップ</h5>
+
+<pre><code>$ bundle exec spork --bootstrap
+
+# spec/spec_helper.rb に追記してくれる
+</code></pre>
+
+<h5>sporkを起動</h5>
+
+<pre><code>$ bundle exec spork
+
+=&gt;  Using RSpec
+        Preloading Rails environment
+        Loading Spork.prefork block...
+        Spork is ready and listening on 8989!
+</code></pre>
+
+<h5>&#8216;&#8211;drb&#8217;付きで Rspec実行</h5>
+
+<pre><code># 別windowを開いて実行
+
+$ time bundle exec rspec --drb
+
+real    0m4.550s
+user    0m2.324s
+sys     0m0.204s
+
+# 2倍くらいのスピード !
+
+# .rspecファイルに '--drb' と書いておくとデフォルトオプションとして扱ってくれる      
+</code></pre>
+
+<p>参考: <a href="https://github.com/sporkrb/spork">https://github.com/sporkrb/spork</a></p>
+
+<hr />
+
+<h3>Guardを使えるようにする</h3>
+
+<p>ファイルを監視して変更されたら自動的にテスト実行する</p>
+
+<h5>Gemfileに追加して bundle update</h5>
+
+<pre><code># Gemfile
+group :development, :test do
+    ...
+  gem 'guard-spork'
+  gem 'guard-rspec'
+  gem 'growl' # Mac OS 10.7 まで
+end
+
+$ bundle update
+</code></pre>
+
+<h5>Guardセットアップコマンドを実行</h5>
+
+<pre><code>$ bundle exec guard init spork
+$ bundle exec guard init rspec
+
+Guardを実行
+
+$ bundle exec guard start
+</code></pre>
+
+<h5></h5>
+
+<p>ファイルを修正すると、対応する単体テストが流れる。結果はGrowlで通知されるので便利。</p>
+
+<p>単体テストに失敗した場合</p>
+
+<p><img src="../../../../../images/red.jpg" alt="失敗した場合" /></p>
+
+<p>単体テストに成功した場合</p>
+
+<p><img src="../../../../../images/green.jpg" alt="成功した場合" /></p>
+
+<p>対応するテストが成功するとその後、全テストが流れる</p>
+
+<p><img src="../../../../../images/pending.jpg" alt="全テスト" /></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Amazon plugin を追加する]]></title>
