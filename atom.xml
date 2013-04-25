@@ -4,7 +4,7 @@
   <title><![CDATA[Akt One.]]></title>
   <link href="http://springaki.github.com/atom.xml" rel="self"/>
   <link href="http://springaki.github.com/"/>
-  <updated>2013-04-25T20:43:59+09:00</updated>
+  <updated>2013-04-25T21:53:44+09:00</updated>
   <id>http://springaki.github.com/</id>
   <author>
     <name><![CDATA[Aki.]]></name>
@@ -18,8 +18,11 @@
     <link href="http://springaki.github.com/blog/2013/04/14/rspec-and-spork-and-guard/"/>
     <updated>2013-04-14T14:47:00+09:00</updated>
     <id>http://springaki.github.com/blog/2013/04/14/rspec-and-spork-and-guard</id>
-    <content type="html"><![CDATA[<p>Rspec環境を充実させるメモ
-わりと今さらな内容ですが、何回も人に説明しているし、何回か同じところで躓いたりしているので備忘的に自分メモ。</p>
+    <content type="html"><![CDATA[<p>Rspec環境を充実させるメモ</p>
+
+<p>わりと今さらな内容ですが、何回も人に説明しているし、何回か同じところで躓いたりしているので備忘的に自分メモ。</p>
+
+<p><a href="http://nishiwaki-higashinadarb.doorkeeper.jp/events/3270">西脇.rb &amp; 東灘.rb 合同もくもく会 2nd #nshgrb</a>を開催したので、そこでテーマとして扱いました。</p>
 
 <ul>
 <li>Rspec: テスト環境本体</li>
