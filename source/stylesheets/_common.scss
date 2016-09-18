@@ -1,0 +1,27 @@
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: MetroNovaPro-Medium;
+	background-color: $backgroundColor;
+	// background-image: image-url('top_bg.png');
+	background-size: 146px 74px;
+	color: $textColor;
+}
+
+// clearfix
+.clearfix {
+	&:after {
+		visibility: hidden;
+		display: block;
+		content: " ";
+		clear: both;
+		height: 0;
+	}
+}
+
+a {
+ color: inherit;
+	&:hover {
+		color: inherit;
+	}
+}
