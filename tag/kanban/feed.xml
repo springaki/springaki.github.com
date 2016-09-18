@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Akt One.: kanban</title>
+  <subtitle>Posts tagged with kanban</subtitle>
+  <id>http://www.example.com/blog</id>
+  <link href="http://www.example.com/blog"/>
+  <link href="http://www.example.com/tag/kanban/feed.xml" rel="self"/>
+  <updated>2016-09-18T16:06:00+09:00</updated>
+  <author>
+    <name>Aki</name>
+  </author>
+  <entry>
+    <title>イベントかんばんのススメ</title>
+    <link rel="alternate" href="http://www.example.com/blog/2016/09/18/event-kanban/"/>
+    <id>http://www.example.com/blog/2016/09/18/event-kanban/</id>
+    <published>2016-09-18T16:06:00+09:00</published>
+    <updated>2016-09-19T02:41:01+09:00</updated>
+    <author>
+      <name>Aki</name>
+    </author>
+    <summary type="html">今日はイベント運営に関するお話をしたいと思います。
+
+こんな事ありませんか？
+
+イベント運営する時に事前準備は “ちゃんと” Trello とかを使ってやってたのに当日になるとバタバタして、Todoを忘れてしまっていたり、もしくは当日は Trelloまったく見てませんでした。とかよくありませんか？ (僕はよくありました &amp;gt;&amp;lt; )
+
+そんな時には現場カンバンっぽいものを作るといいですよ! というご紹介です。
+厳密にカンバンを作るというよりは、情報共有ボードを作るくらいのイメージでいたほうがいいかも</summary>
+  </entry>
+</feed>

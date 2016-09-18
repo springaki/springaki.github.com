@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Akt One.</title>
+<meta content='I know nothing except the fact of my ignorance.' name='description'>
+<meta charset='utf-8'>
+<meta content='width=device-width, initial-scale=1.0' name='viewport'>
+<meta content='IE=edge' http-equiv='X-UA-Compatible'>
+<meta content='True' name='HandheldFriendly'>
+<meta content='Akt One.' property='og:site_name'>
+<meta content='website' property='og:type'>
+<meta content='I know nothing except the fact of my ignorance.' property='og:description'>
+<meta content='http://www.example.com/blog/author/aki/' property='og:url'>
+<meta content='summary' name='twitter:card'>
+<meta content='@spring_aki' name='twitter:site'>
+<meta content='I know nothing except the fact of my ignorance.' name='twitter:description'>
+<meta content='http://www.example.com/blog/author/aki/' name='twitter:url'>
+<link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/blog/feed.xml" />
+<link href="/images/favicon.ico" rel="icon" type="image/ico" />
+<link href="/stylesheets/application.css" rel="stylesheet" />
+<link href='//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400' rel='stylesheet' type='text/css'>
+</head>
+<body class='home-template nav-closed'>
+<div class='nav'>
+<h3 class='nav-title'>Menu</h3>
+<a class='nav-close' href='#'>
+<span class='hidden'>Close</span>
+</a>
+<ul>
+<li class='nav-home' role='presentation'>
+<a href='/'>Home</a>
+</li>
+</ul>
+<a class='subscribe-button icon-feed' href='/blog/feed.xml'>Subscribe</a>
+</div>
+<span class='nav-cover'></span>
+
+<div class='site-wrapper'>
+<header class='author-head main-header no-cover'>
+<nav class='main-nav overlay clearfix'>
+<a class='menu-button icon-menu' href='#'>
+<span class='word'>Menu</span>
+</a>
+</nav>
+</header>
+<section class='author-profile inner'>
+<figure class='author-image'>
+<div class='img' style='background-image: url(https://www.gravatar.com/avatar/81f2122b45f48829be4507bf972666e9?size=114)'>
+<span class='hidden'>Aki's Picture</span>
+</div>
+</figure>
+<h1 class='author-title'>Aki</h1>
+<h2 class='author-bio'>I love Ruby, Rails, Mac, iPhone and Apple product. I like Agile, Scrum and more.</h2>
+<div class='author-meta'>
+<span class='author-location icon-location'>Kobe, Japan</span>
+<span class='author-link icon-link'>
+<a href='https://github.com/springaki'>https://github.com/springaki</a>
+</span>
+<span class='author-stats'>
+<i class='icon-stats'></i>
+6 posts
+</span>
+</div>
+</section>
+<main class='content' id='content' role='main'>
+<div class='extra-pagination inner'>
+<nav class='pagination' role='pagination'>
+<span class='page-number'>Page 1 of 1</span>
+</nav>
+
+</div>
+<article class='post'>
+<header class='post-header'>
+<h2 class='post-title'><a href="/blog/2016/09/18/event-kanban/">イベントかんばんのススメ</a></h2>
+</header>
+<section class='post-excerpt'>
+<p>
+今日はイベント運営に関するお話をしたいと思います。
+
+こんな事ありませんか？
+
+イベント運営する時に事前準備は “ちゃんと” Trello とかを使ってやってたのに当日になるとバタバタして、Todoを忘れてしまっていたり、もしくは当日は Trelloまったく見てませんでした。とかよくありませんか？ (僕はよくありました &gt;&lt; )
+
+そんな時には現場カンバンっぽいものを作るといいですよ! というご紹介です。
+厳密にカンバンを作るというよりは、情報共有ボードを作るくらいのイメージでいたほうがいいかも
+<a href="/blog/2016/09/18/event-kanban/" class="read-more">&raquo;</a>
+</p>
+</section>
+<footer class='post-meta'>
+<img alt='Aki' class='author-thumb' nopin='nopin' src='https://www.gravatar.com/avatar/81f2122b45f48829be4507bf972666e9?size=24'>
+<a href='/blog/author/aki/'>Aki</a>
+on <a href='/blog/tag/event/'>event</a>, <a href='/blog/tag/kanban/'>kanban</a>
+<time class='post-date' datetime='2016-09-18'>
+18 September 2016
+</time>
+</footer>
+</article>
+<article class='post'>
+<header class='post-header'>
+<h2 class='post-title'><a href="/blog/2016/09/18/author/">author</a></h2>
+</header>
+<section class='post-excerpt'>
+<p>
+Aki (@spring_aki)
+
+<a href="/blog/2016/09/18/author/" class="read-more">&raquo;</a>
+</p>
+</section>
+<footer class='post-meta'>
+<img alt='Aki' class='author-thumb' nopin='nopin' src='https://www.gravatar.com/avatar/81f2122b45f48829be4507bf972666e9?size=24'>
+<a href='/blog/author/aki/'>Aki</a>
+<time class='post-date' datetime='2016-09-18'>
+18 September 2016
+</time>
+</footer>
+</article>
+<article class='post'>
+<header class='post-header'>
+<h2 class='post-title'><a href="/blog/2013/11/01/guard-rspec-40-for-spring/">Guard::RSpec 4.0から :spring オプションはdeprecated</a></h2>
+</header>
+<section class='post-excerpt'>
+<p>
+Guardでspringを使用する時に今までは
+guard :rspec, spring: true do
+  # ...
+end
+
+と書いていましたが、
+Guard::RSpec 4.0 からは :spring オプションは非推奨になっていて実行時にwarningが出るようになります。4.0以降は :cmd オプションを使うのが良いみたいです。
+# Guardfile
+guard :rspec, cmd: 'spring rspec -f doc' do
+  # ...
+end
+
+Guard:
+<a href="/blog/2013/11/01/guard-rspec-40-for-spring/" class="read-more">&raquo;</a>
+</p>
+</section>
+<footer class='post-meta'>
+<img alt='Aki' class='author-thumb' nopin='nopin' src='https://www.gravatar.com/avatar/81f2122b45f48829be4507bf972666e9?size=24'>
+<a href='/blog/author/aki/'>Aki</a>
+<time class='post-date' datetime='2013-11-01'>
+01 November 2013
+</time>
+</footer>
+</article>
+<article class='post'>
+<header class='post-header'>
+<h2 class='post-title'><a href="/blog/2013/04/14/rspec-and-spork-and-guard/">Rspec &amp; Spork &amp; Guard でテスト環境を快適にする。</a></h2>
+</header>
+<section class='post-excerpt'>
+<p>
+Rspec環境を充実させるメモ
+
+わりと今さらな内容ですが、何回も人に説明しているし、何回か同じところで躓いたりしているので備忘的に自分メモ。
+
+西脇.rb &amp; 東灘.rb 合同もくもく会 2nd #nshgrbを開催したので、そこでテーマとして扱いました。
+
+
+Rspec: テスト環境本体
+Spork: 起動を早くする仕組み(常時サーバを立ちあげておく)
+Guard: ファイルの変更を監視してファイルが変更されたら随時テストを実行する)
+
+
+
+
+Rspecを使えるようにする。
+
+ディレクトリ作
+<a href="/blog/2013/04/14/rspec-and-spork-and-guard/" class="read-more">&raquo;</a>
+</p>
+</section>
+<footer class='post-meta'>
+<img alt='Aki' class='author-thumb' nopin='nopin' src='https://www.gravatar.com/avatar/81f2122b45f48829be4507bf972666e9?size=24'>
+<a href='/blog/author/aki/'>Aki</a>
+<time class='post-date' datetime='2013-04-14'>
+14 April 2013
+</time>
+</footer>
+</article>
+<article class='post'>
+<header class='post-header'>
+<h2 class='post-title'><a href="/blog/2013/02/03/tedfalsezi-mu-woqu-de-suru/">TEDの字幕を取得する</a></h2>
+</header>
+<section class='post-excerpt'>
+<p>
+英語の勉強にもなると思い TEDの字幕(subtitle)を取得するスクリプトを書いてみました。
+json形式で取得できるのですごく楽。Array zipもべんり。
+
+取得結果は私が大好きな『Marco Tempest: A magical tale (with augmented reality)』(マルコ・テンペスト 「拡張現実がつくり出す魔法」)で出してみました。ぜひ動画もご覧ください。
+
+31言語の翻訳が用意されているので 他言語の習得にも良いかもしれませんね !
+
+
+
+出力結果を一部抜
+<a href="/blog/2013/02/03/tedfalsezi-mu-woqu-de-suru/" class="read-more">&raquo;</a>
+</p>
+</section>
+<footer class='post-meta'>
+<img alt='Aki' class='author-thumb' nopin='nopin' src='https://www.gravatar.com/avatar/81f2122b45f48829be4507bf972666e9?size=24'>
+<a href='/blog/author/aki/'>Aki</a>
+<time class='post-date' datetime='2013-02-03'>
+03 February 2013
+</time>
+</footer>
+</article>
+<article class='post'>
+<header class='post-header'>
+<h2 class='post-title'><a href="/blog/2012/11/30/first-post/">Octopressを使ってみる</a></h2>
+</header>
+<section class='post-excerpt'>
+<p>
+Octopress を使ってBlogを書いてみる。
+
+
+“Create a new Github repository and name the repository with your user name or organization name username.github.com or organization.github.com.”
+
+
+と書かれているとおり、githubのユーザ名が組織アカウント名でリポジトリを作らなければいけない。
+ユーザ名.github.com というリポジトリ
+<a href="/blog/2012/11/30/first-post/" class="read-more">&raquo;</a>
+</p>
+</section>
+<footer class='post-meta'>
+<img alt='Aki' class='author-thumb' nopin='nopin' src='https://www.gravatar.com/avatar/81f2122b45f48829be4507bf972666e9?size=24'>
+<a href='/blog/author/aki/'>Aki</a>
+<time class='post-date' datetime='2012-11-30'>
+30 November 2012
+</time>
+</footer>
+</article>
+<nav class='pagination' role='pagination'>
+<span class='page-number'>Page 1 of 1</span>
+</nav>
+
+
+</main>
+
+<footer class='site-footer clearfix'>
+<section class='copyright'>
+<a href='/blog/'>Akt One.</a>
+&copy;
+2016
+</section>
+<section class='poweredby'>
+Casper theme powered by
+<a href='https://ghost.org'>Ghost</a>
+</section>
+</footer>
+</div>
+<script src="/javascripts/application.js"></script>
+</body>
+</html>

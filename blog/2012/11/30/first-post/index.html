@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Akt One.: Octopressを使ってみる</title>
+<meta content='Octopress を使ってBlogを書いてみる。 &amp;ldquo;Create a new Github repository and name the repository with your user name or organization name username.github...' name='description'>
+<meta charset='utf-8'>
+<meta content='width=device-width, initial-scale=1.0' name='viewport'>
+<meta content='IE=edge' http-equiv='X-UA-Compatible'>
+<meta content='True' name='HandheldFriendly'>
+<meta content='Akt One.' property='og:site_name'>
+<meta content='article' property='og:type'>
+<meta content='Octopressを使ってみる' property='og:title'>
+<meta content='Octopress を使ってBlogを書いてみる。 &amp;ldquo;Create a new Github repository and name the repository with your user name or organization name username.github...' property='og:description'>
+<meta content='http://www.example.com/blog/2012/11/30/first-post/' property='og:url'>
+<meta content='2012-11-30' property='article:published_time'>
+<meta content='summary' name='twitter:card'>
+<meta content='@spring_aki' name='twitter:site'>
+<meta content='Octopressを使ってみる' name='twitter:title'>
+<meta content='Octopress を使ってBlogを書いてみる。 &amp;ldquo;Create a new Github repository and name the repository with your user name or organization name username.github...' name='twitter:description'>
+<meta content='http://www.example.com/blog/2012/11/30/first-post/' name='twitter:url'>
+<link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/blog/feed.xml" />
+<link href="/images/favicon.ico" rel="icon" type="image/ico" />
+<link href="/stylesheets/application.css" rel="stylesheet" />
+<link href='//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400' rel='stylesheet' type='text/css'>
+</head>
+<body class='post-template nav-closed'>
+<div class='nav'>
+<h3 class='nav-title'>Menu</h3>
+<a class='nav-close' href='#'>
+<span class='hidden'>Close</span>
+</a>
+<ul>
+<li class='nav-home' role='presentation'>
+<a href='/'>Home</a>
+</li>
+</ul>
+<a class='subscribe-button icon-feed' href='/blog/feed.xml'>Subscribe</a>
+</div>
+<span class='nav-cover'></span>
+
+<div class='site-wrapper'>
+<header class='main-header no-cover post-head'>
+<nav class='main-nav clearfix'>
+<a class='menu-button icon-menu' href='#'>
+<span class='word'>Menu</span>
+</a>
+</nav>
+</header>
+<main class='content' role='main'>
+<article class='post'>
+<header class='post-header'>
+<h1 class='post-title'>Octopressを使ってみる</h1>
+<section class='post-meta'>
+<time class='post-date' datetime='2012-11-30'>
+30 November 2012
+</time>
+</section>
+</header>
+<section class='post-content'><p><a href="http://octopress.org/" rel="nofollow">Octopress</a> を使ってBlogを書いてみる。</p>
+
+<blockquote>
+<p>&ldquo;Create a new Github repository and name the repository with your user name or organization name username.github.com or organization.github.com.&rdquo;</p>
+</blockquote>
+
+<p>と書かれているとおり、githubのユーザ名が組織アカウント名でリポジトリを作らなければいけない。
+ユーザ名.github.com というリポジトリを作る。</p>
+
+<p>リポジトリの場所を指定</p>
+<pre class="highlight plaintext"><code>    rake setup_github_pages
+</code></pre>
+<p>リポジトリを指示通りの形式で入力。</p>
+
+<p>Blogの枠を生成してデプロイする。</p>
+<pre class="highlight plaintext"><code>    rake generate
+    rake deploy
+</code></pre></section>
+<footer class='post-footer'>
+<figure class='author-image'>
+<a class='img' href='/blog/author/aki/' style='background-image: url(https://www.gravatar.com/avatar/81f2122b45f48829be4507bf972666e9?size=68)'>
+<span class='hidden'>Aki's Picture</span>
+</a>
+</figure>
+<section class='author'>
+<h4>
+<a href='/blog/author/aki/'>Aki</a>
+</h4>
+<p></p>
+I love Ruby, Rails, Mac, iPhone and Apple product. I like Agile, Scrum and more.
+<div class='author-meta'>
+<span class='author-location icon-location'>Kobe, Japan</span>
+<span class='author-link icon-link'>
+<a href='https://github.com/springaki'>https://github.com/springaki</a>
+</span>
+</div>
+</section>
+<section class='share'>
+<h4>Share this post</h4>
+<a class='icon-twitter' href='https://twitter.com/intent/tweet?text=Octopressを使ってみる&amp;amp;url=http://www.example.com/blog/2012/11/30/first-post/' onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+<span class='hidden'>Twitter</span>
+</a>
+<a class='icon-facebook' href='https://www.facebook.com/sharer/sharer.php?u=http://www.example.com/blog/2012/11/30/first-post/' onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+<span class='hidden'>Facebook</span>
+</a>
+<a class='icon-google-plus' href='https://plus.google.com/share?url=http://www.example.com/blog/2012/11/30/first-post/' onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+<span class='hidden'>Google+</span>
+</a>
+</section>
+</footer>
+</article>
+</main>
+<aside class='read-next'>
+<a class='no-cover prev read-next-story' href='/blog/2013/02/03/tedfalsezi-mu-woqu-de-suru/'>
+<section class='post'>
+<h2>TEDの字幕を取得する</h2>
+<p>英語の勉強にもなると思い TEDの字幕(subtitle)を取得するスクリプトを書いてみました。 json形式で取得できるのですごく楽。Array zipもべんり。 取得結果は私が大好きな『Marco Tempest: A magical tale (with augmented reality)』(マルコ・テンペスト 「拡張現実がつくり出す魔法」)で出してみました。ぜひ動画もご覧ください。 31言語の翻訳が用意されているので 他言語の習得にも良いかもしれませんね ! 出力結果を一部抜粋 下記コンテンツを参考にさせていただきました。ありがとうございます。 http://orihubon.com/blog/2012/04/09/fetch-subtitle-for-talks-in-ted/&hellip;</p>
+</section>
+</a>
+</aside>
+
+<footer class='site-footer clearfix'>
+<section class='copyright'>
+<a href='/blog/'>Akt One.</a>
+&copy;
+2016
+</section>
+<section class='poweredby'>
+Casper theme powered by
+<a href='https://ghost.org'>Ghost</a>
+</section>
+</footer>
+</div>
+<script src="/javascripts/application.js"></script>
+</body>
+</html>

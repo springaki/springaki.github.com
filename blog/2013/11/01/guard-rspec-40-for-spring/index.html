@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Akt One.: Guard::RSpec 4.0から :spring オプションはdeprecated</title>
+<meta content='Guardでspringを使用する時に今までは guard :rspec, spring: true do # ... end と書いていましたが、 Guard::RSpec 4.0 からは :spring オプションは非推奨になっていて実行時にwarningが出るようになります。4.0...' name='description'>
+<meta charset='utf-8'>
+<meta content='width=device-width, initial-scale=1.0' name='viewport'>
+<meta content='IE=edge' http-equiv='X-UA-Compatible'>
+<meta content='True' name='HandheldFriendly'>
+<meta content='Akt One.' property='og:site_name'>
+<meta content='article' property='og:type'>
+<meta content='Guard::RSpec 4.0から :spring オプションはdeprecated' property='og:title'>
+<meta content='Guardでspringを使用する時に今までは guard :rspec, spring: true do # ... end と書いていましたが、 Guard::RSpec 4.0 からは :spring オプションは非推奨になっていて実行時にwarningが出るようになります。4.0...' property='og:description'>
+<meta content='http://www.example.com/blog/2013/11/01/guard-rspec-40-for-spring/' property='og:url'>
+<meta content='2013-11-01' property='article:published_time'>
+<meta content='summary' name='twitter:card'>
+<meta content='@spring_aki' name='twitter:site'>
+<meta content='Guard::RSpec 4.0から :spring オプションはdeprecated' name='twitter:title'>
+<meta content='Guardでspringを使用する時に今までは guard :rspec, spring: true do # ... end と書いていましたが、 Guard::RSpec 4.0 からは :spring オプションは非推奨になっていて実行時にwarningが出るようになります。4.0...' name='twitter:description'>
+<meta content='http://www.example.com/blog/2013/11/01/guard-rspec-40-for-spring/' name='twitter:url'>
+<link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/blog/feed.xml" />
+<link href="/images/favicon.ico" rel="icon" type="image/ico" />
+<link href="/stylesheets/application.css" rel="stylesheet" />
+<link href='//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400' rel='stylesheet' type='text/css'>
+</head>
+<body class='post-template nav-closed'>
+<div class='nav'>
+<h3 class='nav-title'>Menu</h3>
+<a class='nav-close' href='#'>
+<span class='hidden'>Close</span>
+</a>
+<ul>
+<li class='nav-home' role='presentation'>
+<a href='/'>Home</a>
+</li>
+</ul>
+<a class='subscribe-button icon-feed' href='/blog/feed.xml'>Subscribe</a>
+</div>
+<span class='nav-cover'></span>
+
+<div class='site-wrapper'>
+<header class='main-header no-cover post-head'>
+<nav class='main-nav clearfix'>
+<a class='menu-button icon-menu' href='#'>
+<span class='word'>Menu</span>
+</a>
+</nav>
+</header>
+<main class='content' role='main'>
+<article class='post'>
+<header class='post-header'>
+<h1 class='post-title'>Guard::RSpec 4.0から :spring オプションはdeprecated</h1>
+<section class='post-meta'>
+<time class='post-date' datetime='2013-11-01'>
+01 November 2013
+</time>
+</section>
+</header>
+<section class='post-content'><p>Guardでspringを使用する時に今までは</p>
+<pre class="highlight plaintext"><code>guard :rspec, spring: true do
+  # ...
+end
+</code></pre>
+<p>と書いていましたが、
+Guard::RSpec 4.0 からは :spring オプションは非推奨になっていて実行時にwarningが出るようになります。4.0以降は :cmd オプションを使うのが良いみたいです。</p>
+<pre class="highlight plaintext"><code># Guardfile
+guard :rspec, cmd: 'spring rspec -f doc' do
+  # ...
+end
+</code></pre>
+<p>Guard::RSpec 4.0で表示されるwarningはこんな感じ。</p>
+<pre class="highlight plaintext"><code>Guard::RSpec DEPRECATION WARNING: The :spring option is deprecated. Please customize the new :cmd option to fit your need.
+</code></pre>
+<p><a href="https://rubygems.org/gems/guard-rspec" rel="nofollow">https://rubygems.org/gems/guard-rspec</a></p>
+
+<p>Guard::RSpec Versions</p>
+
+<ul>
+<li>4.0.3 October 18, 2013</li>
+<li>4.0.2 October 17, 2013</li>
+<li>4.0.1 October 14, 2013</li>
+<li>4.0.0 October 11, 2013</li>
+<li>3.1.0 September 22, 2013</li>
+</ul>
+</section>
+<footer class='post-footer'>
+<figure class='author-image'>
+<a class='img' href='/blog/author/aki/' style='background-image: url(https://www.gravatar.com/avatar/81f2122b45f48829be4507bf972666e9?size=68)'>
+<span class='hidden'>Aki's Picture</span>
+</a>
+</figure>
+<section class='author'>
+<h4>
+<a href='/blog/author/aki/'>Aki</a>
+</h4>
+<p></p>
+I love Ruby, Rails, Mac, iPhone and Apple product. I like Agile, Scrum and more.
+<div class='author-meta'>
+<span class='author-location icon-location'>Kobe, Japan</span>
+<span class='author-link icon-link'>
+<a href='https://github.com/springaki'>https://github.com/springaki</a>
+</span>
+</div>
+</section>
+<section class='share'>
+<h4>Share this post</h4>
+<a class='icon-twitter' href='https://twitter.com/intent/tweet?text=Guard::RSpec 4.0から :spring オプションはdeprecated&amp;amp;url=http://www.example.com/blog/2013/11/01/guard-rspec-40-for-spring/' onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+<span class='hidden'>Twitter</span>
+</a>
+<a class='icon-facebook' href='https://www.facebook.com/sharer/sharer.php?u=http://www.example.com/blog/2013/11/01/guard-rspec-40-for-spring/' onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+<span class='hidden'>Facebook</span>
+</a>
+<a class='icon-google-plus' href='https://plus.google.com/share?url=http://www.example.com/blog/2013/11/01/guard-rspec-40-for-spring/' onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+<span class='hidden'>Google+</span>
+</a>
+</section>
+</footer>
+</article>
+</main>
+<aside class='read-next'>
+<a class='no-cover read-next-story' href='/blog/2013/04/14/rspec-and-spork-and-guard/'>
+<section class='post'>
+<h2>Rspec &amp; Spork &amp; Guard でテスト環境を快適にする。</h2>
+<p>Rspec環境を充実させるメモ わりと今さらな内容ですが、何回も人に説明しているし、何回か同じところで躓いたりしているので備忘的に自分メモ。 西脇.rb &amp; 東灘.rb 合同もくもく会 2nd #nshgrbを開催したので、そこでテーマとして扱いました。 Rspec: テスト環境本体 Spork: 起動を早くする仕組み(常時サーバを立ちあげておく) Guard: ファイルの変更を監視してファイルが変更されたら随時テストを実行する) Rspecを使えるようにする。 ディレクトリ作って、bundle initする。 $ mkdir&hellip;</p>
+</section>
+</a>
+<a class='no-cover prev read-next-story' href='/blog/2016/09/18/author/'>
+<section class='post'>
+<h2>author</h2>
+<p>Aki (@spring_aki)&hellip;</p>
+</section>
+</a>
+</aside>
+
+<footer class='site-footer clearfix'>
+<section class='copyright'>
+<a href='/blog/'>Akt One.</a>
+&copy;
+2016
+</section>
+<section class='poweredby'>
+Casper theme powered by
+<a href='https://ghost.org'>Ghost</a>
+</section>
+</footer>
+</div>
+<script src="/javascripts/application.js"></script>
+</body>
+</html>
