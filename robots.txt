@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: 
-
-Sitemap: http://springaki.github.com/sitemap.xml 
