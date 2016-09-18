@@ -1,62 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://www.example.com/blog/2012/11/30/first-post/index.html</loc>
-    <lastmod>2016-09-19T03:51:13+09:00</lastmod>
+    <loc>http://springaki.github.io/blog/2012/11/30/first-post/index.html</loc>
+    <lastmod>2016-09-19T03:52:57+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.example.com/blog/2013/02/03/tedfalsezi-mu-woqu-de-suru/index.html</loc>
-    <lastmod>2016-09-19T03:51:13+09:00</lastmod>
+    <loc>http://springaki.github.io/blog/2013/02/03/tedfalsezi-mu-woqu-de-suru/index.html</loc>
+    <lastmod>2016-09-19T03:52:57+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.example.com/blog/2013/04/14/rspec-and-spork-and-guard/index.html</loc>
-    <lastmod>2016-09-19T03:51:13+09:00</lastmod>
+    <loc>http://springaki.github.io/blog/2013/04/14/rspec-and-spork-and-guard/index.html</loc>
+    <lastmod>2016-09-19T03:52:57+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.example.com/blog/2013/11/01/guard-rspec-40-for-spring/index.html</loc>
-    <lastmod>2016-09-19T03:51:13+09:00</lastmod>
+    <loc>http://springaki.github.io/blog/2013/11/01/guard-rspec-40-for-spring/index.html</loc>
+    <lastmod>2016-09-19T03:52:57+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.example.com/blog/2016/09/18/author/index.html</loc>
-    <lastmod>2016-09-19T03:51:13+09:00</lastmod>
+    <loc>http://springaki.github.io/blog/2016/09/18/author/index.html</loc>
+    <lastmod>2016-09-19T03:52:57+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.example.com/blog/2016/09/18/event-kanban/index.html</loc>
-    <lastmod>2016-09-19T03:51:13+09:00</lastmod>
+    <loc>http://springaki.github.io/blog/2016/09/18/event-kanban/index.html</loc>
+    <lastmod>2016-09-19T03:52:57+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.example.com/index.html</loc>
-    <lastmod>2016-09-19T03:51:13+09:00</lastmod>
+    <loc>http://springaki.github.io/index.html</loc>
+    <lastmod>2016-09-19T03:52:57+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.example.com/blog/author/aki/index.html</loc>
-    <lastmod>2016-09-19T03:51:13+09:00</lastmod>
+    <loc>http://springaki.github.io/blog/author/aki/index.html</loc>
+    <lastmod>2016-09-19T03:52:57+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.example.com/blog/tag/event/index.html</loc>
-    <lastmod>2016-09-19T03:51:13+09:00</lastmod>
+    <loc>http://springaki.github.io/blog/tag/event/index.html</loc>
+    <lastmod>2016-09-19T03:52:57+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.example.com/blog/tag/kanban/index.html</loc>
-    <lastmod>2016-09-19T03:51:13+09:00</lastmod>
+    <loc>http://springaki.github.io/blog/tag/kanban/index.html</loc>
+    <lastmod>2016-09-19T03:52:57+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

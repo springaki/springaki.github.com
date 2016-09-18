@@ -2,17 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Akt One.</title>
   <subtitle>I know nothing except the fact of my ignorance.</subtitle>
-  <id>http://www.example.com/blog</id>
-  <link href="http://www.example.com/blog"/>
-  <link href="http://www.example.com/feed.xml" rel="self"/>
+  <id>http://springaki.github.io/blog</id>
+  <link href="http://springaki.github.io/blog"/>
+  <link href="http://springaki.github.io/feed.xml" rel="self"/>
   <updated>2016-09-18T16:06:00+09:00</updated>
   <author>
     <name>Aki</name>
   </author>
   <entry>
     <title>イベントかんばんのススメ</title>
-    <link rel="alternate" href="http://www.example.com/blog/2016/09/18/event-kanban/"/>
-    <id>http://www.example.com/blog/2016/09/18/event-kanban/</id>
+    <link rel="alternate" href="http://springaki.github.io/blog/2016/09/18/event-kanban/"/>
+    <id>http://springaki.github.io/blog/2016/09/18/event-kanban/</id>
     <published>2016-09-18T16:06:00+09:00</published>
     <updated>2016-09-19T03:50:55+09:00</updated>
     <author>
@@ -27,8 +27,8 @@
   </entry>
   <entry>
     <title>author</title>
-    <link rel="alternate" href="http://www.example.com/blog/2016/09/18/author/"/>
-    <id>http://www.example.com/blog/2016/09/18/author/</id>
+    <link rel="alternate" href="http://springaki.github.io/blog/2016/09/18/author/"/>
+    <id>http://springaki.github.io/blog/2016/09/18/author/</id>
     <published>2016-09-18T16:06:00+09:00</published>
     <updated>2016-09-19T03:47:01+09:00</updated>
     <author>
@@ -39,8 +39,8 @@
   </entry>
   <entry>
     <title>Guard::RSpec 4.0から :spring オプションはdeprecated</title>
-    <link rel="alternate" href="http://www.example.com/blog/2013/11/01/guard-rspec-40-for-spring/"/>
-    <id>http://www.example.com/blog/2013/11/01/guard-rspec-40-for-spring/</id>
+    <link rel="alternate" href="http://springaki.github.io/blog/2013/11/01/guard-rspec-40-for-spring/"/>
+    <id>http://springaki.github.io/blog/2013/11/01/guard-rspec-40-for-spring/</id>
     <published>2013-11-02T03:45:00+09:00</published>
     <updated>2016-09-19T03:47:01+09:00</updated>
     <author>
@@ -62,8 +62,8 @@ Guard:</summary>
   </entry>
   <entry>
     <title>Rspec &amp;amp; Spork &amp;amp; Guard でテスト環境を快適にする。</title>
-    <link rel="alternate" href="http://www.example.com/blog/2013/04/14/rspec-and-spork-and-guard/"/>
-    <id>http://www.example.com/blog/2013/04/14/rspec-and-spork-and-guard/</id>
+    <link rel="alternate" href="http://springaki.github.io/blog/2013/04/14/rspec-and-spork-and-guard/"/>
+    <id>http://springaki.github.io/blog/2013/04/14/rspec-and-spork-and-guard/</id>
     <published>2013-04-14T23:47:00+09:00</published>
     <updated>2016-09-19T03:47:01+09:00</updated>
     <author>
@@ -89,8 +89,8 @@ Rspecを使えるようにする。
   </entry>
   <entry>
     <title>TEDの字幕を取得する</title>
-    <link rel="alternate" href="http://www.example.com/blog/2013/02/03/tedfalsezi-mu-woqu-de-suru/"/>
-    <id>http://www.example.com/blog/2013/02/03/tedfalsezi-mu-woqu-de-suru/</id>
+    <link rel="alternate" href="http://springaki.github.io/blog/2013/02/03/tedfalsezi-mu-woqu-de-suru/"/>
+    <id>http://springaki.github.io/blog/2013/02/03/tedfalsezi-mu-woqu-de-suru/</id>
     <published>2013-02-04T00:14:00+09:00</published>
     <updated>2016-09-19T03:47:01+09:00</updated>
     <author>
@@ -109,8 +109,8 @@ json形式で取得できるのですごく楽。Array zipもべんり。
   </entry>
   <entry>
     <title>Octopressを使ってみる</title>
-    <link rel="alternate" href="http://www.example.com/blog/2012/11/30/first-post/"/>
-    <id>http://www.example.com/blog/2012/11/30/first-post/</id>
+    <link rel="alternate" href="http://springaki.github.io/blog/2012/11/30/first-post/"/>
+    <id>http://springaki.github.io/blog/2012/11/30/first-post/</id>
     <published>2012-12-01T03:29:00+09:00</published>
     <updated>2016-09-19T03:47:01+09:00</updated>
     <author>
