@@ -1272,6 +1272,32 @@ body:not(.post-template) .post-title {
 }
 
 
+/* custom css */
+.post-header .share {
+    position: absolute;
+    /*top: 3rem;*/
+    right: 0;
+    width: 140px;
+}
+
+.post-header .share a {
+    font-size: 1.8rem;
+    display: inline-block;
+    margin: 1rem 1.6rem 1.6rem 0;
+    color: #BBC7CC;
+    text-decoration: none;
+}
+
+.post-header .share .icon-twitter:hover {
+    color: #55acee;
+}
+.post-header .share .icon-facebook:hover {
+    color: #3b5998;
+}
+.post-header .share .icon-google-plus:hover {
+    color: #dd4b39;
+}
+
 /* ==========================================================================
    6. Author profile
    ========================================================================== */
