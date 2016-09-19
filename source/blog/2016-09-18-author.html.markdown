@@ -1,7 +1,0 @@
----
-title: author
-date: 2016-09-18 07:06 UTC
-layout: page
----
-
-Aki (@spring_aki)

@@ -1,15 +1,15 @@
 ---
-title: イベントかんばんのススメ
+title: イベント会場における現場カンバンのススメ
 date: 2016-09-18 07:06 UTC
 tags: event, kanban
 layout: post
 author: Aki
 ---
 
-
 #### こんな事ありませんか？
 
 イベント運営する時に事前準備は "ちゃんと" Trello とかを使ってやってたのに当日になるとバタバタして、Todoを忘れてしまっていたり、もしくは当日は Trelloまったく見てませんでした。とかよくありませんか？ (僕はよくありました >< )
+もしくはスタッフが何人もいてみんなが一同に集まるのは朝イチくらい。そこからは随時非同期に情報連携していきたいのに、うまくできない事とかありませんか？
 
 そんな時には現場カンバンっぽいものを作るといいですよ! というご紹介です。
 厳密にカンバンを作るというよりは、情報共有ボードを作るくらいのイメージでいたほうがいいかもしれません。イベントでご一緒した方に「コレいいですね」と言われる事が結構あったので、意外にみんな実践してないのかな !? と思い共有してみようと思いました。
@@ -22,7 +22,7 @@ author: Aki
 まずはやることを壁に貼り出しましょう。
 アナログツールで壁に貼り出す。これが唯一のコツと言ってもいいかもしれません。
 
-<meta property="og:image" content="https://springaki.github.io/images/2016-09-18/DSC_0004-Edit.jpg" />
+<meta property="og:image" content="http://springaki.github.io/images/2016-09-18/DSC_0004-Edit.jpg" />
 
 <div class="photo">
 <img src="/images/2016-09-18/DSC_0004-Edit.jpg" width="400" alt="IMG_4539-2-Edit.jpg">
@@ -39,7 +39,7 @@ RailsGirls Kyoto 4th にて
 
 カンバンの運用自体「コレ作ったからやってね。」とかわざわざ言わなくても、色々貼り出していくと結構みんな面白がってやってくれます。"今日の予定", "気付いたこと", "足りないモノ" とか大きなカテゴリの付箋を貼っておくとみんな面白がって貼っていってくれるようでした。
 
-<meta property="og:image" content="https://springaki.github.io/images/2016-09-18/IMG_5688.jpg" />
+<meta property="og:image" content="http://springaki.github.io/images/2016-09-18/IMG_5688.jpg" />
 
 <div class="photo">
 <img src="/images/2016-09-18/IMG_5688.jpg" width="400" alt="IMG_5688.jpg">

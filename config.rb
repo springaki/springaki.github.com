@@ -4,7 +4,7 @@
 
 config[:casper] = {
   blog: {
-    url: 'http://www.example.com',
+    url: 'http://springaki.github.io',
     name: 'Akt One.',
     description: 'I know nothing except the fact of my ignorance.',
     date_format: '%d %B %Y',
@@ -151,6 +151,7 @@ end
 activate :deploy do |deploy|
   deploy.deploy_method = :git
   # Optional Settings
+  deploy.build_before = true
   deploy.remote   = 'git@github.com:springaki/springaki.github.com.git' # remote name or git url, default: origin
   deploy.branch   = 'master' # default: gh-pages
   # deploy.strategy = :submodule      # commit strategy: can be :force_push or :submodule, default: :force_push
