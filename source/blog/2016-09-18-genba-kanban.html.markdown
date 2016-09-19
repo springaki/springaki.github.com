@@ -1,5 +1,5 @@
 ---
-title: イベント会場における現場カンバンのススメ
+title: イベントを支える現場カンバンのススメ
 date: 2016-09-18 07:06 UTC
 tags: event, kanban
 layout: post
@@ -22,10 +22,10 @@ author: Aki
 まずはやることを壁に貼り出しましょう。
 アナログツールで壁に貼り出す。これが唯一のコツと言ってもいいかもしれません。
 
-<meta property="og:image" content="http://springaki.github.io/images/2016-09-18/DSC_0004-Edit.jpg" />
+<meta property="og:image" content="http://springaki.github.io/images/2016-09-18/IMG_4539-2-Edit.jpg" />
 
 <div class="photo">
-<img src="/images/2016-09-18/DSC_0004-Edit.jpg" width="400" alt="IMG_4539-2-Edit.jpg">
+<img src="/images/2016-09-18/IMG_4539-2-Edit.jpg" width="500" alt="IMG_4539-2-Edit.jpg">
 <span class='description'>
 RailsGirls Kyoto 4th にて
 </span>
@@ -50,7 +50,7 @@ RailsGirls Kyoto 4th にて
 
 ##### 規模の大きいイベントでの一例
 
-![DSC_0004-Edit.jpg](images/2016-09-18/DSC_0004-Edit.jpg)
+![DSC_0004-2.jpg](images/2016-09-18/DSC_0004-2.jpg)
 
 これはとある 1000人規模イベントのカンバンです。
 
@@ -62,6 +62,7 @@ RailsGirls Kyoto 4th にて
 - 随時インカムでも情報共有されるので、共有事項は書き留めてスタッフが休憩ローテーションに入った時にスタッフルームのカンバンを見て情報をインプットできるようにする。
 - Doing レーンっぽいものは作らずに矢印付箋で表した
   - ちなみに矢印付箋は付箋を半分に折って3箇所切り込みを入れると簡単に作れます
+  <img src="/images/2016-09-18/DSC_0148.jpg" width="200" alt="DSC_0148.jpg">
   <img src="/images/2016-09-18/%E4%BB%98%E7%AE%8B%E3%82%AB%E3%83%83%E3%83%88.png" width="500" alt="付箋カット.png">
 
 などなど。
