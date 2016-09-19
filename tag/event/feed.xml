@@ -10,19 +10,19 @@
     <name>Aki</name>
   </author>
   <entry>
-    <title>イベントかんばんのススメ</title>
+    <title>イベント会場における現場カンバンのススメ</title>
     <link rel="alternate" href="http://springaki.github.io/blog/2016/09/18/event-kanban/"/>
     <id>http://springaki.github.io/blog/2016/09/18/event-kanban/</id>
     <published>2016-09-18T16:06:00+09:00</published>
-    <updated>2016-09-19T03:50:55+09:00</updated>
+    <updated>2016-09-19T12:08:15+09:00</updated>
     <author>
       <name>Aki</name>
     </author>
     <summary type="html">こんな事ありませんか？
 
 イベント運営する時に事前準備は “ちゃんと” Trello とかを使ってやってたのに当日になるとバタバタして、Todoを忘れてしまっていたり、もしくは当日は Trelloまったく見てませんでした。とかよくありませんか？ (僕はよくありました &amp;gt;&amp;lt; )
+もしくはスタッフが何人もいてみんなが一同に集まるのは朝イチくらい。そこからは随時非同期に情報連携していきたいのに、うまくできない事とかありませんか？
 
-そんな時には現場カンバンっぽいものを作るといいですよ! というご紹介です。
-厳密にカンバンを作るというよりは、情報共有ボードを作るくらいのイメージでいたほうがいいかもしれません。イベントでご一緒した方に「コレいいですね」</summary>
+そんな時には現場カンバンっぽいものを作るといいですよ! というご紹介で</summary>
   </entry>
 </feed>
