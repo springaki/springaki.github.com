@@ -4,6 +4,12 @@ date: 2016-09-18 07:06 UTC
 tags: event, kanban
 layout: post
 author: Aki
+images:
+  - images/2016-09-18/IMG_4539-2-Edit.jpg
+  - images/2016-09-18/IMG_5688.jpg
+  - images/2016-09-18/DSC_0004-2.jpg
+  - images/2016-09-18/%E4%BB%98%E7%AE%8B%E3%82%AB%E3%83%83%E3%83%88.png
+  - images/2016-09-18/nextyear.png
 ---
 
 #### こんな事ありませんか？
@@ -22,8 +28,6 @@ author: Aki
 まずはやることを壁に貼り出しましょう。
 アナログツールで壁に貼り出す。これが唯一のコツと言ってもいいかもしれません。
 
-<meta property="og:image" content="http://springaki.github.io/images/2016-09-18/IMG_4539-2-Edit.jpg" />
-
 <div class="photo">
 <img src="/images/2016-09-18/IMG_4539-2-Edit.jpg" width="500" alt="IMG_4539-2-Edit.jpg">
 <span class='description'>
@@ -38,8 +42,6 @@ RailsGirls Kyoto 4th にて
 ##### みんな自発的に動いてくれる
 
 カンバンの運用自体「コレ作ったからやってね。」とかわざわざ言わなくても、色々貼り出していくと結構みんな面白がってやってくれます。"今日の予定", "気付いたこと", "足りないモノ" とか大きなカテゴリの付箋を貼っておくとみんな面白がって貼っていってくれるようでした。
-
-<meta property="og:image" content="http://springaki.github.io/images/2016-09-18/IMG_5688.jpg" />
 
 <div class="photo">
 <img src="/images/2016-09-18/IMG_5688.jpg" width="400" alt="IMG_5688.jpg">

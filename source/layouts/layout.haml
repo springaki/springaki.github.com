@@ -39,6 +39,9 @@
     - if build?
       = google_analytics_universal_tag
 
+    - Array(current_page.data.images).each do |image_url|
+      %meta{property: "og:image", content: URI.join(blog_settings.url, image_url) }
+
   %body{class: "#{page_class} nav-closed"}
 
     = partial('shared/navigation')
