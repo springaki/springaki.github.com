@@ -5,7 +5,7 @@
 config[:casper] = {
   blog: {
     url: 'http://springaki.github.io',
-    name: 'Akt One.',
+    name: 'Akt One',
     description: 'I know nothing except the fact of my ignorance.',
     date_format: '%d %B %Y',
     navigation: true,

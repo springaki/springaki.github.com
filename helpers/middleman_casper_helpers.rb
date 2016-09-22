@@ -3,15 +3,15 @@ require 'digest/md5'
 
 module MiddlemanCasperHelpers
   def page_title
-    title = blog_settings.name.dup
+    title = ''
     if is_tag_page?
-      title << ": #{current_resource.metadata[:locals]['tagname']}"
+      title << "#{current_resource.metadata[:locals]['tagname']}"
     elsif current_page.data.title
-      title << ": #{current_page.data.title}"
+      title << "#{current_page.data.title}"
     elsif is_blog_article?
-      title << ": #{current_article.title}"
+      title << "#{current_article.title}"
     end
-    title
+    title << " - #{blog_settings.name.dup}"
   end
 
   def page_description
