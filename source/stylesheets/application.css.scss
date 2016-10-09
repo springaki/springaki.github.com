@@ -9,11 +9,28 @@ pre.highlight {
   }
 }
 
-span.description {
+.description {
 	font-size: smaller;
+}
+
+.photo-by {
+	font-size: x-small;
+  text-align: right;
 }
 
 div.photo {
   display: block;
-  text-align: center;
+  margin: auto;
+  img {
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+figure.photo {
+  float: left;
+  padding-right: 20px;
 }
