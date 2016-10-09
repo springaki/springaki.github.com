@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Akt One: koberb</title>
+  <subtitle>Posts tagged with koberb</subtitle>
+  <id>http://springaki.github.io/blog</id>
+  <link href="http://springaki.github.io/blog"/>
+  <link href="http://springaki.github.io/tag/koberb/feed.xml" rel="self"/>
+  <updated>2016-10-09T09:08:00+09:00</updated>
+  <author>
+    <name>Aki</name>
+  </author>
+  <entry>
+    <title>プログラミングキャンプ2016を開催しました。</title>
+    <link rel="alternate" href="http://springaki.github.io/blog/2016/10/09/koberb-programming-camp-3/"/>
+    <id>http://springaki.github.io/blog/2016/10/09/koberb-programming-camp-3/</id>
+    <published>2016-10-09T09:08:00+09:00</published>
+    <updated>2016-10-09T18:36:13+09:00</updated>
+    <author>
+      <name>Aki</name>
+    </author>
+    <summary type="html">先日 Rubyプログラミングキャンプ 2016を開催しました。他にも合宿的な事をやる方の為に内容を紹介します。
+
+はじめに
+
+私(Aki) は 2013年から 神戸.rb (※1) という Rubyコミュニティを主催しています。神戸.rb では現在、平日夜に2週間に1回の頻度で Meetup を開催しています。
+
+そして同じく 2013年に生まれた 西脇.rb  2〜3ヶ月に1回、合同イベントを行ってきました。
+Rubyプログラミングキャンプもその合同イベントのひとつで 今年で3年目になります。</summary>
+  </entry>
+</feed>
