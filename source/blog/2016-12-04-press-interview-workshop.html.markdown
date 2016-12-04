@@ -40,13 +40,14 @@ images:
 
 <div class="photo" style="width: 400px">
 <img src="/images/2016-12-04/IMG_4489.jpg" alt="IMG_9641.JPG" />
+<span class='description'><a href="https://yochiyochirb.doorkeeper.jp/">よちよち.rb</a> の Organizer でもあり RailsGirls Tokyo などでも活動されている <a href="https://twitter.com/yucao24hours">@yucao24hours</a>さんが書いている様子。この写真使ってもいいかどうか聞いたらすぐに快諾いただいた :)</span>
 </div>
 
 下の写真のようなテンプレートを用意するのも良し (情報が見やすい) ですね。
 
 <div class="photo" style="width: 450px">
-<span class='description'>RailsGirls Kyoto 6th で使われた普通の自己紹介のテンプレート</span>
 <img src="/images/2016-12-04/IMG_9641.JPG" width="600" alt="IMG_9641.JPG">
+<span class='description'>RailsGirls Kyoto 6th で使われた普通の自己紹介のテンプレート</span>
 </div>
 
 
