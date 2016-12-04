@@ -13,7 +13,7 @@ config[:casper] = {
   },
   author: {
     name: 'Aki',
-    bio: 'I love Ruby, Rails, Mac, iPhone and Apple product. I like Agile, Scrum and more.', # Optional
+    bio: '<a href="https://koberb.doorkeeper.jp/">神戸.rb</a> founder, <a href="http://railsgirls.jp/about">RailsGirls Japan</a>, <a href="https://www.scrumalliance.org/certifications/practitioners/csp-certification">Certified Scrum Professional</a>', # Optional
     location: 'Kobe, Japan', # Optional
     website: 'https://github.com/springaki', # Optional
     gravatar_email: "aki.onetime@gmail.com", # Optional
