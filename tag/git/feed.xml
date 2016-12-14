@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Akt One: git</title>
+  <subtitle>Posts tagged with git</subtitle>
+  <id>http://springaki.github.io/blog</id>
+  <link href="http://springaki.github.io/blog"/>
+  <link href="http://springaki.github.io/tag/git/feed.xml" rel="self"/>
+  <updated>2016-12-14T23:15:00+09:00</updated>
+  <author>
+    <name>Aki</name>
+  </author>
+  <entry>
+    <title>【初心者向け】はじめてGitを使う人の為のイメージ図</title>
+    <link rel="alternate" href="http://springaki.github.io/blog/2016/12/14/for_beginners_git_images/"/>
+    <id>http://springaki.github.io/blog/2016/12/14/for_beginners_git_images/</id>
+    <published>2016-12-14T23:15:00+09:00</published>
+    <updated>2016-12-15T04:47:30+09:00</updated>
+    <author>
+      <name>Aki</name>
+    </author>
+    <summary type="html">これは Git を初めて使う人の為のイメージ図です
+RailsGirls などで初めて Git を知る人に対して図を書いて説明する事が多いので、説明文付きでイラストにしました。なるべくわかりやすい説明文にしたつもりですが、皆さんのフィードバックを受けてこれからも改訂していきます。
+
+
+
+印刷用
+初心者向けGit図解.png
+</summary>
+  </entry>
+</feed>
