@@ -32,3 +32,12 @@ figure.photo {
   float: left;
   padding-right: 20px;
 }
+
+div.box {
+  display: flex;
+  text-align: center;
+
+  .item {
+    margin: 15px;
+  }
+}
