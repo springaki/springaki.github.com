@@ -4,6 +4,9 @@ date: 2017-07-22 10:00 UTC
 tags: Books, Team, 自己組織化, チーム
 layout: post
 author: Aki
+images:
+  - images/2017-07-01/4873118026.png
+
 ---
 
 <div class="photo item" style="width: 250px">
