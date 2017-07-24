@@ -110,7 +110,7 @@ end
 activate :directory_indexes
 
 # Middleman-Syntax - https://github.com/middleman/middleman-syntax
-set :haml, { ugly: true }
+# set :haml, { ugly: true }
 set :markdown_engine, :redcarpet
 set :markdown, fenced_code_blocks: true, smartypants: true, footnotes: true,
   link_attributes: { rel: 'nofollow' }, tables: true
