@@ -72,13 +72,13 @@
 14 April 2013
 </time>
 <section class='share'>
-<a class='icon-twitter' href='https://twitter.com/intent/tweet?text=Rspec &amp;amp; Spork &amp;amp; Guard でテスト環境を快適にする。&amp;amp;url=http://springaki.github.io/blog/2013/04/14/rspec-and-spork-and-guard/' onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+<a class='icon-twitter' href='https://twitter.com/intent/tweet?text=Rspec &amp;amp; Spork &amp;amp; Guard でテスト環境を快適にする。&amp;amp;url=http://springaki.github.io/blog/2013/04/14/rspec-and-spork-and-guard/' onclick='window.open(this.href, &#39;twitter-share&#39;, &#39;width=550,height=235&#39;);return false;'>
 <span class='hidden'>Twitter</span>
 </a>
-<a class='icon-facebook' href='https://www.facebook.com/sharer/sharer.php?u=http://springaki.github.io/blog/2013/04/14/rspec-and-spork-and-guard/' onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+<a class='icon-facebook' href='https://www.facebook.com/sharer/sharer.php?u=http://springaki.github.io/blog/2013/04/14/rspec-and-spork-and-guard/' onclick='window.open(this.href, &#39;facebook-share&#39;,&#39;width=580,height=296&#39;);return false;'>
 <span class='hidden'>Facebook</span>
 </a>
-<a class='icon-google-plus' href='https://plus.google.com/share?url=http://springaki.github.io/blog/2013/04/14/rspec-and-spork-and-guard/' onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+<a class='icon-google-plus' href='https://plus.google.com/share?url=http://springaki.github.io/blog/2013/04/14/rspec-and-spork-and-guard/' onclick='window.open(this.href, &#39;google-plus-share&#39;, &#39;width=490,height=530&#39;);return false;'>
 <span class='hidden'>Google+</span>
 </a>
 </section>
@@ -101,70 +101,70 @@
 <h3>Rspecを使えるようにする。</h3>
 
 <h5>ディレクトリ作って、bundle initする。</h5>
-<pre class="highlight plaintext"><code>$ mkdir rspec_env_spike
+<div class="highlight"><pre class="highlight plaintext"><code>$ mkdir rspec_env_spike
 $ cd  rspec_env_spike
 $ bundle init
-</code></pre>
+</code></pre></div>
 <h5>Gemfile (あとでrailswizardでセットアップするので必要最低限だけ)</h5>
-<pre class="highlight plaintext"><code>source 'https://rubygems.org'
+<div class="highlight"><pre class="highlight plaintext"><code>source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
-</code></pre>
+</code></pre></div>
 <h5>bundlerで railsだけ入れておく。(以降、bundle execするのを忘れないように)</h5>
-<pre class="highlight plaintext"><code>$ bundle install --path vendor/bundle
-</code></pre>
+<div class="highlight"><pre class="highlight plaintext"><code>$ bundle install --path vendor/bundle
+</code></pre></div>
 <h5>railswizard 使って rails newする。pow と rspecだけ入ってる状態。</h5>
-<pre class="highlight plaintext"><code>$ bundle exec rails new . -m http://railswizard.org/cfeea747d830f4f73699.rb -T
-</code></pre>
+<div class="highlight"><pre class="highlight plaintext"><code>$ bundle exec rails new . -m http://railswizard.org/cfeea747d830f4f73699.rb -T
+</code></pre></div>
 <h5>rspec install</h5>
-<pre class="highlight plaintext"><code>$ bundle exec rails g rspec:install
-</code></pre>
+<div class="highlight"><pre class="highlight plaintext"><code>$ bundle exec rails g rspec:install
+</code></pre></div>
 <h5>spikeなので適当にscaffoldして、db migrateする</h5>
-<pre class="highlight plaintext"><code>$ bundle exec rails g scaffold book isbn title publish:date
+<div class="highlight"><pre class="highlight plaintext"><code>$ bundle exec rails g scaffold book isbn title publish:date
 $ rake db:migrate
-</code></pre>
+</code></pre></div>
 <h5>テスト実行</h5>
-<pre class="highlight plaintext"><code>$ bundle exec rspec
+<div class="highlight"><pre class="highlight plaintext"><code>$ bundle exec rspec
 =&gt; ..*..........................*
 
 =&gt; Finished in 1.19 seconds
 =&gt; 30 examples, 0 failures, 2 pending
-</code></pre>
+</code></pre></div>
 <hr>
 
 <h3>Sporkを使えるようにする</h3>
 
 <h5>テストの起動が遅いので sporkを入れる。</h5>
-<pre class="highlight plaintext"><code>$ time bundle exec rspec
+<div class="highlight"><pre class="highlight plaintext"><code>$ time bundle exec rspec
 
 real    0m8.673s
 user    0m7.782s
 sys     0m0.742s
-</code></pre>
+</code></pre></div>
 <h5>Gemfileに追加して bundle update</h5>
-<pre class="highlight plaintext"><code># Gemfile
+<div class="highlight"><pre class="highlight plaintext"><code># Gemfile
 group :development, :test do
     ...
 gem 'spork'
 end
 
 $ bundle update
-</code></pre>
+</code></pre></div>
 <h5>sporkのセットアップ</h5>
-<pre class="highlight plaintext"><code>$ bundle exec spork --bootstrap
+<div class="highlight"><pre class="highlight plaintext"><code>$ bundle exec spork --bootstrap
 
 # spec/spec_helper.rb に追記してくれる
-</code></pre>
+</code></pre></div>
 <h5>sporkを起動</h5>
-<pre class="highlight plaintext"><code>$ bundle exec spork
+<div class="highlight"><pre class="highlight plaintext"><code>$ bundle exec spork
 
 =&gt;  Using RSpec
         Preloading Rails environment
         Loading Spork.prefork block...
         Spork is ready and listening on 8989!
-</code></pre>
+</code></pre></div>
 <h5>&rsquo;&ndash;drb&#39;付きで Rspec実行</h5>
-<pre class="highlight plaintext"><code># 別windowを開いて実行
+<div class="highlight"><pre class="highlight plaintext"><code># 別windowを開いて実行
 
 $ time bundle exec rspec --drb
 
@@ -175,7 +175,7 @@ sys     0m0.204s
 # 2倍くらいのスピード !
 
 # .rspecファイルに '--drb' と書いておくとデフォルトオプションとして扱ってくれる      
-</code></pre>
+</code></pre></div>
 <p>参考: <a href="https://github.com/sporkrb/spork" rel="nofollow">https://github.com/sporkrb/spork</a></p>
 
 <hr>
@@ -185,7 +185,7 @@ sys     0m0.204s
 <p>ファイルを監視して変更されたら自動的にテスト実行する</p>
 
 <h5>Gemfileに追加して bundle update</h5>
-<pre class="highlight plaintext"><code># Gemfile
+<div class="highlight"><pre class="highlight plaintext"><code># Gemfile
 group :development, :test do
     ...
   gem 'guard-spork'
@@ -194,15 +194,15 @@ group :development, :test do
 end
 
 $ bundle update
-</code></pre>
+</code></pre></div>
 <h5>Guardセットアップコマンドを実行</h5>
-<pre class="highlight plaintext"><code>$ bundle exec guard init spork
+<div class="highlight"><pre class="highlight plaintext"><code>$ bundle exec guard init spork
 $ bundle exec guard init rspec
 
 Guardを実行
 
 $ bundle exec guard start
-</code></pre>
+</code></pre></div>
 <p>ファイルを修正すると、対応する単体テストが流れる。結果はGrowlで通知されるので便利。</p>
 
 <p>単体テストに失敗した場合</p>
@@ -238,13 +238,13 @@ $ bundle exec guard start
 </section>
 <section class='share'>
 <h4>Share this post</h4>
-<a class='icon-twitter' href='https://twitter.com/intent/tweet?text=Rspec &amp;amp; Spork &amp;amp; Guard でテスト環境を快適にする。&amp;amp;url=http://springaki.github.io/blog/2013/04/14/rspec-and-spork-and-guard/' onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+<a class='icon-twitter' href='https://twitter.com/intent/tweet?text=Rspec &amp;amp; Spork &amp;amp; Guard でテスト環境を快適にする。&amp;amp;url=http://springaki.github.io/blog/2013/04/14/rspec-and-spork-and-guard/' onclick='window.open(this.href, &#39;twitter-share&#39;, &#39;width=550,height=235&#39;);return false;'>
 <span class='hidden'>Twitter</span>
 </a>
-<a class='icon-facebook' href='https://www.facebook.com/sharer/sharer.php?u=http://springaki.github.io/blog/2013/04/14/rspec-and-spork-and-guard/' onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+<a class='icon-facebook' href='https://www.facebook.com/sharer/sharer.php?u=http://springaki.github.io/blog/2013/04/14/rspec-and-spork-and-guard/' onclick='window.open(this.href, &#39;facebook-share&#39;,&#39;width=580,height=296&#39;);return false;'>
 <span class='hidden'>Facebook</span>
 </a>
-<a class='icon-google-plus' href='https://plus.google.com/share?url=http://springaki.github.io/blog/2013/04/14/rspec-and-spork-and-guard/' onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+<a class='icon-google-plus' href='https://plus.google.com/share?url=http://springaki.github.io/blog/2013/04/14/rspec-and-spork-and-guard/' onclick='window.open(this.href, &#39;google-plus-share&#39;, &#39;width=490,height=530&#39;);return false;'>
 <span class='hidden'>Google+</span>
 </a>
 </section>
@@ -270,7 +270,7 @@ $ bundle exec guard start
 <section class='copyright'>
 <a href='/blog/'>Akt One</a>
 &copy;
-2016
+2017
 </section>
 <section class='poweredby'>
 Casper theme powered by

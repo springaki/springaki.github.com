@@ -5,10 +5,48 @@
   <id>http://springaki.github.io/blog</id>
   <link href="http://springaki.github.io/blog"/>
   <link href="http://springaki.github.io/feed.xml" rel="self"/>
-  <updated>2016-12-14T23:15:00+09:00</updated>
+  <updated>2017-07-02T04:12:00+09:00</updated>
   <author>
     <name>Aki</name>
   </author>
+  <entry>
+    <title>心理的安全性と自己組織化チームに関係するオススメ本</title>
+    <link rel="alternate" href="http://springaki.github.io/blog/2017/07/01/recommend-books/"/>
+    <id>http://springaki.github.io/blog/2017/07/01/recommend-books/</id>
+    <published>2017-07-02T04:12:00+09:00</published>
+    <updated>2017-07-24T22:29:50+09:00</updated>
+    <author>
+      <name>Aki</name>
+    </author>
+    <summary type="html">
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+</summary>
+  </entry>
   <entry>
     <title>【初心者向け】はじめてGitを使う人の為のイメージ図</title>
     <link rel="alternate" href="http://springaki.github.io/blog/2016/12/14/for_beginners_git_images/"/>
@@ -103,32 +141,5 @@ guard :rspec, cmd: 'spring rspec -f doc' do
 end
 
 Guard:</summary>
-  </entry>
-  <entry>
-    <title>Rspec &amp;amp; Spork &amp;amp; Guard でテスト環境を快適にする。</title>
-    <link rel="alternate" href="http://springaki.github.io/blog/2013/04/14/rspec-and-spork-and-guard/"/>
-    <id>http://springaki.github.io/blog/2013/04/14/rspec-and-spork-and-guard/</id>
-    <published>2013-04-14T23:47:00+09:00</published>
-    <updated>2016-12-06T10:59:22+09:00</updated>
-    <author>
-      <name>Aki</name>
-    </author>
-    <summary type="html">Rspec環境を充実させるメモ
-
-わりと今さらな内容ですが、何回も人に説明しているし、何回か同じところで躓いたりしているので備忘的に自分メモ。
-
-西脇.rb &amp;amp; 東灘.rb 合同もくもく会 2nd #nshgrbを開催したので、そこでテーマとして扱いました。
-
-
-Rspec: テスト環境本体
-Spork: 起動を早くする仕組み(常時サーバを立ちあげておく)
-Guard: ファイルの変更を監視してファイルが変更されたら随時テストを実行する)
-
-
-
-
-Rspecを使えるようにする。
-
-ディレクトリ作</summary>
   </entry>
 </feed>
