@@ -38,6 +38,14 @@
 
     - if build?
       = google_analytics_universal_tag
+      / Google Tag Manager
+      :javascript
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-PFQC7KT');
+      / End Google Tag Manager
 
     - Array(current_page.data.images).each do |image_url|
       %meta{property: "og:image", content: URI.join(blog_settings.url, image_url) }
@@ -62,3 +70,8 @@
           %a{href: 'https://ghost.org'} Ghost
 
     = javascript_include_tag :application
+
+    / Google Tag Manager (noscript)
+    %noscript
+      %iframe{:height => "0", :src => "https://www.googletagmanager.com/ns.html?id=GTM-PFQC7KT", :style => "display:none;visibility:hidden", :width => "0"}
+    / End Google Tag Manager (noscript)
