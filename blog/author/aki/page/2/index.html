@@ -75,7 +75,7 @@
 </span>
 <span class='author-stats'>
 <i class='icon-stats'></i>
-8 posts
+9 posts
 </span>
 </div>
 </section>
@@ -87,6 +87,36 @@
 </nav>
 
 </div>
+<article class='post'>
+<header class='post-header'>
+<h2 class='post-title'><a href="/blog/2013/11/01/guard-rspec-40-for-spring/">Guard::RSpec 4.0から :spring オプションはdeprecated</a></h2>
+</header>
+<section class='post-excerpt'>
+<p>
+Guardでspringを使用する時に今までは
+guard :rspec, spring: true do
+  # ...
+end
+
+と書いていましたが、
+Guard::RSpec 4.0 からは :spring オプションは非推奨になっていて実行時にwarningが出るようになります。4.0以降は :cmd オプションを使うのが良いみたいです。
+# Guardfile
+guard :rspec, cmd: 'spring rspec -f doc' do
+  # ...
+end
+
+Guard:
+<a href="/blog/2013/11/01/guard-rspec-40-for-spring/" class="read-more">&raquo;</a>
+</p>
+</section>
+<footer class='post-meta'>
+<img alt='Aki' class='author-thumb' nopin='nopin' src='https://www.gravatar.com/avatar/81f2122b45f48829be4507bf972666e9?size=24'>
+<a href='/blog/author/aki/'>Aki</a>
+<time class='post-date' datetime='2013-11-01'>
+01 November 2013
+</time>
+</footer>
+</article>
 <article class='post'>
 <header class='post-header'>
 <h2 class='post-title'><a href="/blog/2013/04/14/rspec-and-spork-and-guard/">Rspec &amp; Spork &amp; Guard でテスト環境を快適にする。</a></h2>
