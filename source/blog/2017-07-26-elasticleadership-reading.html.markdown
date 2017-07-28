@@ -5,6 +5,7 @@ tags: Books, Team, 自己組織化, チーム
 layout: post
 author: Aki
 images2:
+  - {path: 'images/2017-07-01/4873118026.png', width: 239, height: 338}
   - {path: 'images/2017-07-26/IMG_3656-Edit.jpg', width: 512, height: 384}
 
 ---
