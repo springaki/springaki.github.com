@@ -5,7 +5,7 @@ tags: Books, Team, 自己組織化, チーム
 layout: post
 author: Aki
 images:
-  - images/2017-07-25/IMG_3656-Edit.jpg
+  - images/2017-07-26/IMG_3656-Edit.jpg
 
 ---
 
@@ -16,7 +16,7 @@ images:
 エラスティックリーダーシップの読書会に参加してきました。
 
 <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:680px;" title="URLを記入するだけ！はてなブログカード風にWordpress記事も表示させるカスタマイズ方法" src="https://hatenablog-parts.com/embed?url=https://shin-osaka-agile.connpass.com/event/61928/" width="300" height="150" frameborder="0" scrolling="no"></iframe>
-<img src="/images/2017-07-25/IMG_3656-Edit.jpg" alt="IMG_3656-Edit.jpg" width="300"/>
+<img src="/images/2017-07-26/IMG_3656-Edit.jpg" alt="IMG_3656-Edit.jpg" width="300"/>
 
 
 当日はなんと訳者の島田さんがサプライズ参加 :)
