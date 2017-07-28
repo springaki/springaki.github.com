@@ -4,8 +4,8 @@ date: 2017-07-25 10:00 UTC
 tags: Keynote, リモコン, ガジェット
 layout: post
 author: Aki
-images:
-  - images/2017-07-25/IMG_3649.jpg
+images2:
+  - {path: 'images/2017-07-25/IMG_3649.jpg', width: 512, height: 512}
 
 ---
 
