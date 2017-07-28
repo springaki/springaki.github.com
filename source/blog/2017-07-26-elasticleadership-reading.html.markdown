@@ -1,6 +1,6 @@
 ---
 title: エラスティックリーダーシップ読書会
-date: 2017-07-25 10:00 UTC
+date: 2017-07-26 10:00 UTC
 tags: Books, Team, 自己組織化, チーム
 layout: post
 author: Aki
