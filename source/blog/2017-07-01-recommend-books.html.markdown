@@ -33,3 +33,12 @@ author: Aki
     </a>
   </div>
 </div>
+
+<div class="box">
+  <div class="photo item" style="width: 250px">
+    <a href='http://amzn.to/2tUBHGS'>
+      <img src="/images/2017-07-01/4903212351.jpg" alt="4903212351.jpg" />
+    </a>
+  </div>
+
+</div>
