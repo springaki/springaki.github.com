@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Akt One: Keynote</title>
-  <subtitle>Posts tagged with Keynote</subtitle>
+  <title>Akt One: ガジェット</title>
+  <subtitle>Posts tagged with ガジェット</subtitle>
   <id>http://springaki.github.io/blog</id>
   <link href="http://springaki.github.io/blog"/>
-  <link href="http://springaki.github.io/tag/keynote/feed.xml" rel="self"/>
+  <link href="http://springaki.github.io/tag/feed.xml" rel="self"/>
   <updated>2017-07-25T19:00:00+09:00</updated>
   <author>
     <name>Aki</name>
