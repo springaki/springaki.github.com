@@ -8,8 +8,8 @@ author: Aki
 
 <div class="box">
   <div class="photo item" style="width: 250px">
-    <a href='http://amzn.to/2eIeaF9'>
-      <img src="/images/2017-07-01/4862761011.png" alt="4862761011.png" />
+    <a href='http://amzn.to/2tUBHGS'>
+      <img src="/images/2017-07-01/4903212351.jpg" alt="4903212351.jpg" />
     </a>
   </div>
 
@@ -36,8 +36,8 @@ author: Aki
 
 <div class="box">
   <div class="photo item" style="width: 250px">
-    <a href='http://amzn.to/2tUBHGS'>
-      <img src="/images/2017-07-01/4903212351.jpg" alt="4903212351.jpg" />
+    <a href='http://amzn.to/2eIeaF9'>
+      <img src="/images/2017-07-01/4862761011.png" alt="4862761011.png" />
     </a>
   </div>
 
