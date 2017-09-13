@@ -10,9 +10,8 @@ images2:
 
 ---
 
-<blockquote class="embedly-card"><h4><a href="http://amzn.to/2uZZCcU">エラスティックリーダーシップ ―自己組織化チームの育て方</a></h4></blockquote>
-<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
-電子版は [https://www.oreilly.co.jp/books/9784873118024/](https://www.oreilly.co.jp/books/9784873118024/)
+<blockquote class="embedly-card"><h4><a href="https://www.amazon.co.jp/dp/4873118026?tag=hubot-pluto-22">エラスティックリーダーシップ ―自己組織化チームの育て方</a></h4><p>AmazonでRoy Osherove, 島田 浩二のエラスティックリーダーシップ ―自己組織化チームの育て方。アマゾンならポイント還元本が多数。Roy Osherove, 島田 浩二作品ほか、お急ぎ便対象商品は当日お届けも可能。またエラスティックリーダーシップ ―自己組織化チームの育て方もアマゾン配送商品なら通常配送無料。</p></blockquote>
+<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>電子版は [https://www.oreilly.co.jp/books/9784873118024/](https://www.oreilly.co.jp/books/9784873118024/)
 
 エラスティックリーダーシップの読書会に参加してきました。
 
@@ -38,7 +37,7 @@ images2:
 
 余談ですが、懇親会の中でこの本もオススメしてもらった。
 
-<blockquote class="embedly-card"><h4><a href="http://amzn.to/2vHteZx">小さな習慣</a></h4><p>Amazon配送商品なら小さな習慣が通常配送無料。更にAmazonならポイント還元本が多数。スティーヴン・ガイズ, 田口 未和作品ほか、お急ぎ便対象商品は当日お届けも可能。</p></blockquote>
+<blockquote class="embedly-card"><h4><a href="https://www.amazon.co.jp/dp/4478065772?tag=hubot-pluto-22">小さな習慣</a></h4><p>Amazonでスティーヴン・ガイズ, 田口 未和の小さな習慣。アマゾンならポイント還元本が多数。スティーヴン・ガイズ, 田口 未和作品ほか、お急ぎ便対象商品は当日お届けも可能。また小さな習慣もアマゾン配送商品なら通常配送無料。</p></blockquote>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
 習慣のチカラについては 『やり抜く力』 という本を読んでいたのですが、この本の方がわかりやすくて、すっと実践しやすそう。

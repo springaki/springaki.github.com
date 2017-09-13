@@ -11,7 +11,7 @@ images2:
 
 Keynoteでこのリモコンを使ってますが、めっちゃ気に入ってます。
 
-<blockquote class="embedly-card"><h4><a href="http://amzn.to/2tBqQpP">Logicool ロジクール R1000SL 充電式 プレゼンテーションリモート スレート PC/タブレット対応 PowerPoint、Keynote、Google Slides、PDF等対応</a></h4><p>オンライン通販のAmazon公式サイトなら、Logicool ロジクール R1000SL 充電式 プレゼンテーションリモート スレート PC/タブレット対応 PowerPoint、Keynote、Google Slides、PDF等対応を パソコン・周辺機器ストアで、いつでもお安く。当日お急ぎ便対象商品は、当日お届け可能です。アマゾン配送商品は、通常送料無料。</p></blockquote>
+<blockquote class="embedly-card"><h4><a href="https://www.amazon.co.jp/dp/B06XFPQBW1?tag=hubot-pluto-22">Logicool ロジクール R1000SL 充電式 プレゼンテーションリモート スレート PC/タブレット対応 PowerPoint、Keynote、Google Slides、PDF等対応</a></h4><p>オンライン通販のAmazon公式サイトなら、Logicool ロジクール R1000SL 充電式 プレゼンテーションリモート スレート PC/タブレット対応 PowerPoint、Keynote、Google Slides、PDF等対応を パソコン・周辺機器ストアで、いつでもお安く。当日お急ぎ便対象商品は、当日お届け可能です。アマゾン配送商品は、通常送料無料。</p></blockquote>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
 何がいいって
