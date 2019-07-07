@@ -13,7 +13,7 @@ config[:casper] = {
   },
   author: {
     name: 'Aki',
-    bio: '<a href="https://koberb.doorkeeper.jp/">神戸.rb</a> founder, <a href="http://railsgirls.jp/about">RailsGirls Japan</a>, <a href="https://www.scrumalliance.org/certifications/practitioners/csp-certification">Certified Scrum Professional</a>', # Optional
+    bio: 'Catalyst, Agile Coach, Web Application Developer, <a href="https://koberb.doorkeeper.jp/">神戸.rb</a> founder, <a href="https://www.scrumalliance.org/certifications/practitioners/csp-certification">CSP®-SM, CSP®-PO</a>, <a href="https://scrumdo-kansai.connpass.com/">スクラム道関西</a> co-founder', # Optional <a href="http://railsgirls.jp/about">RailsGirls Japan</a>, 
     location: 'Kobe, Japan', # Optional
     website: 'https://github.com/springaki', # Optional
     gravatar_email: "aki.onetime@gmail.com", # Optional
