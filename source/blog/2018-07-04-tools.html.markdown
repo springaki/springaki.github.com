@@ -1,0 +1,73 @@
+---
+title: べんり道具
+date: 2018-07-04 07:02 UTC
+tags: 
+layout: post
+author: Aki
+images2:
+- {path: 'images/2018/IMG_8016.jpg', width: 710, height: 554}
+---
+
+よく聞かれるのでまとめた。
+
+##### ふせん
+大量に使う強粘着ふせん。
+
+<div class="item" style="width: 150px">
+  <a href='[https://amzn.to/2KE0xXR](https://amzn.to/2KE0xXR)'>
+    <img src="/images/2018/20180704_1.jpg" alt="20180304_1.jpg" />
+  </a>
+</div>
+
+- 75x75 パステル・イエロー [[https://amzn.to/2KE0xXR](https://amzn.to/2KE0xXR)]([https://amzn.to/2KE0xXR](https://amzn.to/2KE0xXR))
+
+<a class="embedly-card" href="https://www.amazon.co.jp/%E3%83%9D%E3%82%B9%E3%83%88%E3%82%A4%E3%83%83%E3%83%88-%E5%BC%B7%E7%B2%98%E7%9D%80-75x75mm-90%E6%9E%9Ax5%E5%80%8B-654-5SSAP/dp/B00LBNM9DG/ref=as_li_ss_tl?ie=UTF8&qid=1533360743&sr=8-10&keywords=%E3%83%9D%E3%82%B9%E3%83%88%E3%82%A4%E3%83%83%E3%83%88+%E5%BC%B7%E7%B2%98%E7%9D%80&linkCode=sl1&tag=2udbkw-22&linkId=9097420253e0b4e678f6d5d8a4610ac5">Card</a><script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+
+
+- 75x75 パステル・5色 [[https://amzn.to/2M0RoJu](https://amzn.to/2M0RoJu)]([https://amzn.to/2M0RoJu](https://amzn.to/2M0RoJu))
+- 75x75 ネオン・5色  [https://amzn.to/2vCxMBd](https://amzn.to/2vCxMBd)
+- 75x127 パステル・5色  [https://amzn.to/2vi0lEF](https://amzn.to/2vi0lEF)
+- 75x127 ネオン・5色  [https://amzn.to/2vBOvo7](https://amzn.to/2vBOvo7)
+
+##### ペン
+ふせんには太めのペンで遠くから見てもわかるように書く。
+
+- サインペン: [https://amzn.to/2veoj3U](https://amzn.to/2veoj3U)
+- プロッキー: [https://amzn.to/2OJUDDU](https://amzn.to/2OJUDDU)
+- (紙箱タイプ) [https://www.askul.co.jp/p/604156/](https://www.askul.co.jp/p/604156/)
+
+最高に書きやすいホワイトボードマーカー
+中字平心がオススメ
+[https://amzn.to/2KmcYmZ](https://amzn.to/2KmcYmZ)
+
+イーゼルパッド
+ふせんの大きいヤツ。書いてすぐに壁に貼れる。スタンドみたいに立てて書くこともできる。
+ワークショップやトレーニングで後から見返したりするものを書くのに便利。模造紙よりちょっと小さい。
+[https://amzn.to/2yOXIyC](https://amzn.to/2yOXIyC)
+
+模造紙
+もうちょっと大きめに書きたいならコレ。イーゼルパッドより安価。
+[https://amzn.to/2vEVw82](https://amzn.to/2vEVw82)
+
+スチレンボード
+壁がないなら作ればいい !! 足りないなら増やそう !
+持ち運びもできて便利。
+[https://amzn.to/2LOFT8F](https://amzn.to/2LOFT8F)
+[https://amzn.to/2n8nhSh](https://amzn.to/2n8nhSh) (5mm厚 A1（よりやや大きめ）5枚入 3,980円)
+[https://amzn.to/2OLg1IS](https://amzn.to/2OLg1IS) (A1判 7mm厚 1枚 1,836円)
+
+ホワイトボード
+軽いパーティションとしても使えるので便利
+縦長 https://www.askul.co.jp/p/294151/
+正方形 https://www.askul.co.jp/p/2314816/
+
+
+タイマー
+時間は誰かにタイマーに管理してもらうのがコツ
+[https://amzn.to/2KqhUqQ](https://amzn.to/2KqhUqQ) (テンキー、音量「大」「小」「無音」、10分前、5分前予告)
+[https://amzn.to/2KvyrtS](https://amzn.to/2KvyrtS) (テンキー、音量「大」「小」)
+
+視覚的なアナログタイマー
+残り時間が感覚値としてわかる。グループワークに便利
+[https://amzn.to/2LUyuoF](https://amzn.to/2LUyuoF) (大型)
+[https://amzn.to/2LV6Gk0](https://amzn.to/2LV6Gk0) (大型)
