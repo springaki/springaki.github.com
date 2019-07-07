@@ -5,10 +5,28 @@
   <id>http://springaki.github.io/blog</id>
   <link href="http://springaki.github.io/blog"/>
   <link href="http://springaki.github.io/tag/railsgirls/feed.xml" rel="self"/>
-  <updated>2016-12-04T14:58:00+09:00</updated>
+  <updated>2016-12-14T23:15:00+09:00</updated>
   <author>
     <name>Aki</name>
   </author>
+  <entry>
+    <title>【初心者向け】はじめてGitを使う人の為のイメージ図</title>
+    <link rel="alternate" href="http://springaki.github.io/blog/2016/12/14/for-beginners-git-images/"/>
+    <id>http://springaki.github.io/blog/2016/12/14/for-beginners-git-images/</id>
+    <published>2016-12-14T23:15:00+09:00</published>
+    <updated>2018-03-13T01:58:16+09:00</updated>
+    <author>
+      <name>Aki</name>
+    </author>
+    <summary type="html">これは Git を初めて使う人の為のイメージ図です
+RailsGirls などで初めて Git を知る人に対して図を書いて説明する事が多いので、説明文付きでイラストにしました。なるべくわかりやすい説明文にしたつもりですが、皆さんのフィードバックを受けてこれからも改訂していきます。
+
+
+
+印刷用
+初心者向けGit図解.png
+</summary>
+  </entry>
   <entry>
     <title>みんなで記者会見(自己紹介ワークショップ)</title>
     <link rel="alternate" href="http://springaki.github.io/blog/2016/12/04/press-interview-workshop/"/>
@@ -28,23 +46,5 @@
 
 
 そ</summary>
-  </entry>
-  <entry>
-    <title>【初心者向け】はじめてGitを使う人の為のイメージ図</title>
-    <link rel="alternate" href="http://springaki.github.io/blog/2016/12/14/for_beginners_git_images/"/>
-    <id>http://springaki.github.io/blog/2016/12/14/for_beginners_git_images/</id>
-    <published>2016-12-14T23:15:00+09:00</published>
-    <updated>2018-03-13T01:58:16+09:00</updated>
-    <author>
-      <name>Aki</name>
-    </author>
-    <summary type="html">これは Git を初めて使う人の為のイメージ図です
-RailsGirls などで初めて Git を知る人に対して図を書いて説明する事が多いので、説明文付きでイラストにしました。なるべくわかりやすい説明文にしたつもりですが、皆さんのフィードバックを受けてこれからも改訂していきます。
-
-
-
-印刷用
-初心者向けGit図解.png
-</summary>
   </entry>
 </feed>

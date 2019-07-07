@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Akt One: workshop</title>
+  <subtitle>Posts tagged with workshop</subtitle>
+  <id>http://springaki.github.io/blog</id>
+  <link href="http://springaki.github.io/blog"/>
+  <link href="http://springaki.github.io/tag/workshop/feed.xml" rel="self"/>
+  <updated>2019-07-06T11:31:00+09:00</updated>
+  <author>
+    <name>Aki</name>
+  </author>
+  <entry>
+    <title>フェニックスプロジェクトワークショップ 〜アジャイルコーチ編〜</title>
+    <link rel="alternate" href="http://springaki.github.io/blog/2019/07/06/the-phoenix-project/"/>
+    <id>http://springaki.github.io/blog/2019/07/06/the-phoenix-project/</id>
+    <published>2019-07-06T11:31:00+09:00</published>
+    <updated>2019-07-07T15:07:51+09:00</updated>
+    <author>
+      <name>Aki</name>
+    </author>
+    <summary type="html">クリエーションラインさんが実施する フェニックスプロジェクトワークショップをアジャイルコーチ成分多めの参加者を集めた特別編で体験させてもらいました。
+
+フェニックスプロジェクトとワークショップの概要については下記参照
+
+
+体験型ワークショップなので先入観や前情報は何もない状態で、騙されたと思ってまずは体験してみて欲しいです。でもすでに内容を知っていてもOK。上記の紹介記事だけ読んで行ってもいいし、本 ( https://amzn.to/2XrlhJG ) 読んでから行ってもいいし。
+知らなくても</summary>
+  </entry>
+</feed>
