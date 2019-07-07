@@ -1,7 +1,7 @@
 ---
 title: チーム形成の段階と対処法がよくわかる『エラスティックリーダーシップ ―自己組織化チームの育て方』
 date: 2017-07-22 10:00 UTC
-tags: Books, Team, 自己組織化, チーム
+tags: Books, Team, #自己組織化, チーム
 layout: post
 author: Aki
 images:

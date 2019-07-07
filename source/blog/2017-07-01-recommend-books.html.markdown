@@ -1,7 +1,7 @@
 ---
 title: 心理的安全性と自己組織化チームに関係するオススメ本
 date: 2017-07-01 19:12 UTC
-tags: Books, Team, 自己組織化, チーム, 心理的安全性
+tags: Books, Team, #自己組織化, チーム, 心理的安全性
 layout: post
 author: Aki
 ---

@@ -1,7 +1,7 @@
 ---
 title: ふりかえり (Retrospective) 関係でオススメした本
 date: 2017-10-01 01:10 JST
-tags: Books, Retrospective, Team, ふりかえり, 自己組織化, チーム, 心理的安全性
+tags: Books, Retrospective, Team, #ふりかえり, 自己組織化, チーム, 心理的安全性
 layout: post
 author: Aki
 images2:

@@ -1,7 +1,7 @@
 ---
 title: Apple 好きな人に絶対オススメしたい間違いナシの Keynoteリモコンはコレ
 date: 2017-07-25 10:00 UTC
-tags: Keynote, リモコン, ガジェット
+tags: Keynote #, リモコン, ガジェット
 layout: post
 author: Aki
 images2:

@@ -1,7 +1,7 @@
 ---
 title: チーム形成や自己組織化チーム作りにお悩みの方にオススメ。エラスティックリーダーシップ読書会で 読書 & ディスカッションしよう
 date: 2017-07-26 10:00 UTC
-tags: Books, Team, 自己組織化, チーム
+tags: Books, Team, # 自己組織化, チーム
 layout: post
 author: Aki
 images2:
