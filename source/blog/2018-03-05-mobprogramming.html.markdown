@@ -1,13 +1,13 @@
 ---
-
 title: 神戸、大阪でモブプログラミングワークショップをやって見て思ったこと
 date: 2018-03-05 08:26 UTC
 tags: mob-programming, mob
 layout: post
 author: Aki
+images2:
+- {path: 'images/2018/IMG_8016.jpg', width: 710, height: 554}
 
 ---
-
 
 東京から及部さんをお呼びしてモブプログラミングワークショップをやりました。
 
@@ -55,7 +55,10 @@ author: Aki
 
 暗黙知が形式知になる部分もありますが、暗黙知がそのまま暗黙知として伝わっていく部分を中心にSECIモデルの共同化、表出化、連結化、内面化を全部やってるみたいな感じかな？(モブプログラミングは"チームで行う活動"だから当然といえば当然か)
 
+<div class="photo">
 <img src="/images/2018/IMG_8016.jpg" alt="IMG_8016.jpg" width="600"/>
+<figcaption class='photo-by'>温かく見守る及部さん。その向こうでヤッター!!</figcaption>
+</div>
 
 ##### 当たり前の方法のように広まって欲しい
 
